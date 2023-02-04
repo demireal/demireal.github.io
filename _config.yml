@@ -78,7 +78,7 @@ footer:
 defaults:
   # _posts
   - scope:
-      path: "_posts"
+      path: ""
       type: posts
     values:
       layout: single
@@ -89,10 +89,10 @@ defaults:
       related: true
   # _pages
   - scope:
-      path: ""
+      path: "_pages"
       type: pages
     values:
-      layout: splash
+      layout: single
       author_profile: true
 
 category_archive:
