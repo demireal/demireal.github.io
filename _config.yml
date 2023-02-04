@@ -60,9 +60,6 @@ author:
   avatar : "/assets/images/ilker-modified.jpeg"
   bio    : "PhD student at MIT CSAIL"
   links:
-    - label: "Location"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:demirel@mit.edu"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:demirel@mit.edu"
