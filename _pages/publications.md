@@ -8,7 +8,7 @@ title: "Publications"
 Falsification of Internal and External Validity in Observational Studies via Conditional Moment Restrictions \
 Z. Hussain<sup>*</sup>, M.C. Shih<sup>*</sup>, M. Oberst, **I. Demirel**, D. Sontag \
 *AISTATS*, 2023 \
-[paper](https://arxiv.org/pdf/2301.13133)
+[[paper]](https://arxiv.org/pdf/2301.13133)
 
 ESCADA: Efficient Safety and Context Aware Dose Allocation for Precision Medicine \
 **I. Demirel**, A.A. Celik, C. Tekin \
