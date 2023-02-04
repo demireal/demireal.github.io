@@ -57,7 +57,7 @@ plugins:
 author:
   name   : "Ilker Demirel"
   avatar : "/assets/images/ilker-modified.jpeg"
-  bio    : "PhD student at MIT CSAIL \ Interested in ML for healthcare and biology, causal inference, and decision-making under uncertainty."
+  bio    : "PhD student at MIT CSAIL. <br\> Interested in ML for healthcare and biology, causal inference, and decision-making under uncertainty."
   location: Cambridge, MA
   github: demireal
   linkedin: ilker-demirel-7ab01818a
