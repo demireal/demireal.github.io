@@ -53,6 +53,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
+  - jekyll-feed
   - jemoji
   - jekyll-include-cache
 
@@ -62,7 +63,7 @@ author:
   bio    : "PhD student at MIT CSAIL"
   links:
     - label: "Email"
-      icon: "fab fa-fw fa-envelope"
+      icon: "fab fa-fw fa-envelope-square"
       mailto: demirel@mit.edu
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
