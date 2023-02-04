@@ -35,9 +35,9 @@ Distance and Position Estimation in Visible Light Systems with RGB LEDs \
 ## Preprint
 
 Federated Multi-Armed Bandits Under Byzantine Attacks \
-**I. Demirel**<sup>*</sup>, Y. Yildirim<sup>*</sup>, C. Tekin \
+**I. Demirel***, Y. Yildirim*, C. Tekin \
 [[paper]](https://arxiv.org/pdf/2205.04134.pdf)
 
 Safe Linear Leveling Bandits \
-**I. Demirel**<sup>*</sup>, M.U. Ozdemir<sup>*</sup>, C. Tekin \
+**I. Demirel***, M.U. Ozdemir*, C. Tekin \
 [[paper]](https://arxiv.org/pdf/2112.06728.pdf)
