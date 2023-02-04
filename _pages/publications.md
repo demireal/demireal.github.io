@@ -6,7 +6,7 @@ title: "Publications"
 ## Conference
 
 Falsification of Internal and External Validity in Observational Studies via Conditional Moment Restrictions \
-Z. Hussain\*, M.C. Shih\*, M. Oberst, **I. Demirel**, D. Sontag \
+Z. Hussainn\*, M.C. Shih\*, M. Oberst, **I. Demirel**, D. Sontag \
 *AISTATS*, 2023, * equal contribution \
 [[paper]](https://arxiv.org/pdf/2301.13133.pdf)
 
