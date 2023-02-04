@@ -66,7 +66,7 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:demirel@mit.edu"
     - label: "Google Scholar"
-      icon: "fa fa-graduation-cap"
+      icon: "fab fa-fw fa-scholar"
       url:  "https://scholar.google.com/citations?user=pHAhVlQAAAAJ"
       
 footer:
