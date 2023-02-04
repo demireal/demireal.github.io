@@ -58,7 +58,7 @@ author:
   name   : "Ilker Demirel"
   avatar : "/assets/images/ilker-modified.jpeg"
   bio    : "PhD student at MIT CSAIL"
-  location: Cambridge, MA
+  location: Cambridgee, MA
   github: demireal
   linkedin: ilker-demirel-7ab01818a
   links:
@@ -66,7 +66,7 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:demirel@mit.edu"
     - label: "Google Scholar"
-      icon: "fas fa-fw fa-scholar"
+      icon: "fa-scholar"
       url:  "https://scholar.google.com/citations?user=pHAhVlQAAAAJ"
       
 footer:
