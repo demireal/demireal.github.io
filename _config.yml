@@ -63,8 +63,8 @@ author:
   bio    : "PhD student at MIT CSAIL"
   links:
     - label: "Email"
-      icon: "fab fa-fw fa-twitter-square"
-      mailto: demirel@mit.edu
+      icon: "fab fa-fw fa-envelope"
+      url: "mailto:demirel@mit.edu"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/demireal"
