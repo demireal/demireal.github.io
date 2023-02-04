@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: ilkerdq
 github_username: demireal
 minimal_mistakes_skin: dark
-search: true
+search: false
 
 # Build settings
 markdown: kramdown
@@ -58,7 +58,7 @@ author:
   name   : "Ilker Demirel"
   avatar : "/assets/images/ilker-modified.jpeg"
   bio    : "PhD student at MIT CSAIL"
-  location: Cambridgee, MA
+  location: Cambridge, MA
   github: demireal
   linkedin: ilker-demirel-7ab01818a
   links:
@@ -66,7 +66,7 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:demirel@mit.edu"
     - label: "Google Scholar"
-      icon: "fa-scholar"
+      icon: "ai-google-scholar-square"
       url:  "https://scholar.google.com/citations?user=pHAhVlQAAAAJ"
       
 footer:
