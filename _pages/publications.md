@@ -6,8 +6,8 @@ title: "Publications"
 ## Conference
 
 Falsification of Internal and External Validity in Observational Studies via Conditional Moment Restrictions \
-Z. Hussainn\*, M.C. Shih\*, M. Oberst, **I. Demirel**, D. Sontag \
-*AISTATS*, 2023, * equal contribution \
+Z. Hussain\*, M.C. Shih\*, M. Oberst, **I. Demirel**, D. Sontag \
+*AISTATS*, 2023, \* equal contribution \
 [[paper]](https://arxiv.org/pdf/2301.13133.pdf)
 
 ESCADA: Efficient Safety and Context Aware Dose Allocation for Precision Medicine \
@@ -35,11 +35,11 @@ Distance and Position Estimation in Visible Light Systems with RGB LEDs \
 ## Preprint
 
 Federated Multi-Armed Bandits Under Byzantine Attacks \
-**I. Demirel***, Y. Yildirim*, C. Tekin \
-*arXiv*, 2022, * equal contribution \
+**I. Demirel**\*, Y. Yildirim\*, C. Tekin \
+*arXiv*, 2022, \* equal contribution \
 [[paper]](https://arxiv.org/pdf/2205.04134.pdf)
 
 Safe Linear Leveling Bandits \
-**I. Demirel***, M.U. Ozdemir*, C. Tekin \
-*arXiv*, 2022, * equal contribution \
+**I. Demirel**\*, M.U. Ozdemir\*, C. Tekin \
+*arXiv*, 2022, \* equal contribution \
 [[paper]](https://arxiv.org/pdf/2112.06728.pdf)
