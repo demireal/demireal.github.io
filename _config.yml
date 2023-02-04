@@ -65,7 +65,10 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:demirel@mit.edu"
-
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-scholar"
+      url:  "https://scholar.google.com/citations?user=pHAhVlQAAAAJ"
+      
 footer:
   links:
 
