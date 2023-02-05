@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Publications"
+title: "Papers"
 ---
 
 ## Conference
