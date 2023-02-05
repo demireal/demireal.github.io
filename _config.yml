@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Ilker Demirel is a PhD student at MIT CSAIL where I am advised by David Sontag in the ClinicalML group.
 # twitter_username: 
 # github_username: demireal
-minimal_mistakes_skin: dirt
+minimal_mistakes_skin: contrast
 search: false
 
 # Build settings
