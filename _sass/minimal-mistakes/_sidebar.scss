@@ -58,11 +58,11 @@
   }
 
   img {
-    width: 200%;
+    width: 100%;
 
     &.emoji {
-      width: 60px;
-      height: 60px;
+      width: 30px;
+      height: 30px;
     }
   }
 }
@@ -120,8 +120,8 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
 
   @include breakpoint($large) {
     display: block;
@@ -130,7 +130,7 @@
   }
 
   img {
-    max-width: 200px;
+    max-width: 110px;
     border-radius: 50%;
 
     @include breakpoint($large) {
