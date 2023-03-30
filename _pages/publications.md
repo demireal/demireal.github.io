@@ -13,7 +13,7 @@ Z. Hussain\*, M.C. Shih\*, M. Oberst, **ID**, D. Sontag \
 **ESCADA: Efficient Safety and Context Aware Dose Allocation for Precision Medicine** \
 **ID**, A.A. Celik, C. Tekin \
 *NeurIPS*, 2022 \
-[[paper]](https://openreview.net/pdf?id=JokpPqA294)
+[[paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/afddff15817993412489a7df483da7d9-Paper-Conference.pdf)
 
 **Combinatorial Gaussian Process Bandits with Probabilistically Triggered Arms** \
 **ID**, C. Tekin \
