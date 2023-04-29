@@ -3,7 +3,7 @@ permalink: /
 title: ""
 ---
 
-I am a first year PhD student at [MIT CSAIL](https://www.csail.mit.edu) where I am advised by [David Sontag](http://clinicalml.org) and an [EWSC](https://www.ericandwendyschmidtcenter.org) PhD fellow at the Broad Institute of MIT and Harvard. Previously, I got my BS and MS degrees in Electrical and Electronics Engineering from [Bilkent University](https://w3.bilkent.edu.tr/bilkent/) in Turkey.
+I am a first year PhD student at [MIT CSAIL](https://www.csail.mit.edu) where I am advised by [David Sontag](http://clinicalml.org) and an [EWSC](https://www.ericandwendyschmidtcenter.org) PhD fellow at the Broad Institute of MIT and Harvard.
 
 ## Conference
 
