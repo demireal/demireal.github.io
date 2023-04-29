@@ -16,7 +16,7 @@
 title: Ilker Demirel  
 email: demirel@mit.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Ilker Demirel is a PhD student at MIT CSAIL where I am advised by David Sontag in the ClinicalML group.
+  Ilker Demirel is a PhD student at MIT CSAIL advised by David Sontag in the ClinicalML group.
 # twitter_username: 
 ## github_username: demireal
 minimal_mistakes_skin: contrast
@@ -57,7 +57,7 @@ plugins:
 author:
   name   : "Ilker Demirel"
   avatar : "/assets/images/ilker-modified.jpeg"
-  bio    : "PhD student at MIT CSAIL in the Clinical ML group. <br /> Interested in causal inference, decision-making, uncertainty, and computational biology."
+  bio    : "ML and stats for health and comp bio. mostly causal inference, decision-making, and uncertainty."
   location: Cambridge, MA
   github: demireal
   linkedin: ilker-demirel-7ab01818a
