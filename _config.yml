@@ -57,7 +57,7 @@ plugins:
 author:
   name   : "Ilker Demirel"
   avatar : "/assets/images/ilker-modified.jpeg"
-  bio    : "ML and stats for healthcare and comp bio. mostly causal inference, decision-making, and uncertainty."
+  bio    : "ML and stats for healthcare and comp bio. Mostly causal inference, decision-making, and uncertainty."
   location: Cambridge, MA
   github: demireal
   linkedin: ilker-demirel-7ab01818a
