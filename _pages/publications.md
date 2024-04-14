@@ -7,15 +7,20 @@ I am a PhD student at [MIT CSAIL](https://www.csail.mit.edu) advised by [David S
 
 ## Conference
 
+**Benchmarking Observational Studies with Experimental Data under Right-Censoring** \
+**ID**, E.D. Brouwer, Z. Hussain, M. Oberst, A. Philippakis, D. Sontag \
+*AISTATS*, 2024, \
+[[paper]](https://arxiv.org/abs/2402.15137)
+
 **Falsification of Internal and External Validity in Observational Studies via Conditional Moment Restrictions** \
 Z. Hussain\*, M.C. Shih\*, M. Oberst, **ID**, D. Sontag \
 *AISTATS*, 2023, \*equal contribution \
-[[paper]](https://arxiv.org/pdf/2301.13133.pdf)
+[[paper]](https://proceedings.mlr.press/v206/hussain23a.html)
 
 **ESCADA: Efficient Safety and Context Aware Dose Allocation for Precision Medicine** \
 **ID**, A.A. Celik, C. Tekin \
 *NeurIPS*, 2022 \
-[[paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/afddff15817993412489a7df483da7d9-Paper-Conference.pdf)
+[[paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/afddff15817993412489a7df483da7d9-Abstract-Conference.html)
 
 **Combinatorial Gaussian Process Bandits with Probabilistically Triggered Arms** \
 **ID**, C. Tekin \
@@ -39,7 +44,7 @@ Z. Hussain\*, M.C. Shih\*, M. Oberst, **ID**, D. Sontag \
 **Federated Multi-Armed Bandits Under Byzantine Attacks** \
 **ID**\*, Y. Yildirim\*, C. Tekin \
 *arXiv*, 2022, \*equal contribution \
-[[paper]](https://arxiv.org/pdf/2205.04134.pdf)
+[[paper]](https://arxiv.org/abs/2205.04134)
 
 **Safe Linear Leveling Bandits** \
 **ID**\*, M.U. Ozdemir\*, C. Tekin \
