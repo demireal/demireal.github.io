@@ -8,7 +8,7 @@ I am a PhD student at [MIT CSAIL](https://www.csail.mit.edu) advised by [David S
 ## Conference
 
 **Benchmarking Observational Studies with Experimental Data under Right-Censoring** \
-$${\color{blue}\textnormal{ID}}$$, E.D. Brouwer, Z. Hussain, M. Oberst, A. Philippakis, D. Sontag \
+**ID**, E.D. Brouwer, Z. Hussain, M. Oberst, A. Philippakis, D. Sontag \
 *AISTATS*, 2024, [[paper]](https://arxiv.org/abs/2402.15137)
 
 **Falsification of Internal and External Validity in Observational Studies via Conditional Moment Restrictions** \
