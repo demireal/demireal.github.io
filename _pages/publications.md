@@ -45,8 +45,3 @@ Z. Hussain\*, M.C. Shih\*, M. Oberst, **ID**, D. Sontag \
 **ID**\*, Y. Yildirim\*, C. Tekin \
 *arXiv*, 2022, \*equal contribution \
 [[paper]](https://arxiv.org/abs/2205.04134)
-
-**Safe Linear Leveling Bandits** \
-**ID**\*, M.U. Ozdemir\*, C. Tekin \
-*arXiv*, 2022, \*equal contribution \
-[[paper]](https://arxiv.org/pdf/2112.06728.pdf)
