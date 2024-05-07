@@ -7,6 +7,10 @@ I am a PhD student at [MIT CSAIL](https://www.csail.mit.edu) advised by [David S
 
 ## Conference
 
+**Prediction-powered Generalization of Causal Inferences** \
+**ID**, A. Alaa, A. Philippakis, D. Sontag \
+*ICML*, 2024.
+
 **Benchmarking Observational Studies with Experimental Data under Right-Censoring** \
 **ID**, E.D. Brouwer, Z. Hussain, M. Oberst, A. Philippakis, D. Sontag \
 *AISTATS*, 2024, [[paper]](https://arxiv.org/abs/2402.15137)
