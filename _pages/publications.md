@@ -9,11 +9,11 @@ I am a PhD student at [MIT CSAIL](https://www.csail.mit.edu) advised by [David S
 
 **Prediction-powered Generalization of Causal Inferences** \
 **ID**, A. Alaa, A. Philippakis, D. Sontag \
-*ICML*, 2024.
+*ICML*, 2024. [[paper]](https://arxiv.org/abs/2406.02873) 
 
 **Benchmarking Observational Studies with Experimental Data under Right-Censoring** \
 **ID**, E.D. Brouwer, Z. Hussain, M. Oberst, A. Philippakis, D. Sontag \
-*AISTATS*, 2024, [[paper]](https://arxiv.org/abs/2402.15137)
+*AISTATS*, 2024, [[paper]](https://proceedings.mlr.press/v238/demirel24a.html)
 
 **Falsification of Internal and External Validity in Observational Studies via Conditional Moment Restrictions** \
 Z. Hussain\*, M.C. Shih\*, M. Oberst, **ID**, D. Sontag \
