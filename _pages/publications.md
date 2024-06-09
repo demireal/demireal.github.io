@@ -5,7 +5,7 @@ title: ""
 
 Hey :) I am a PhD student at [MIT CSAIL](https://www.csail.mit.edu) advised by [David Sontag](http://clinicalml.org) and an [EWSC](https://www.ericandwendyschmidtcenter.org) PhD fellow at the Broad Institute of MIT and Harvard.
 
-I am currently interning at the Microsoft Research with the [Immunomics](https://www.microsoft.com/en-us/research/project/immunomics/).
+I am currently interning at Microsoft Research, Redmond with the [Immunomics](https://www.microsoft.com/en-us/research/project/immunomics/).
 
 ## Conference
 
