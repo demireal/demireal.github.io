@@ -5,6 +5,12 @@ title: ""
 
 Hey :) I am a PhD student at [MIT CSAIL](https://www.csail.mit.edu) advised by [David Sontag](http://clinicalml.org) and an [EWSC](https://www.ericandwendyschmidtcenter.org) PhD fellow at the Broad Institute of MIT and Harvard.
 
+
+## W.I.P.
+
+**Scalable Universal T-cell receptor embeddings from Adaptive Immune Repertoires** \
+P. Chapfuwa, **ID**, L. Pisani, J. Zazo, E. Portugaly, J. Zahid, J. Greissl
+
 ## Conference
 
 **Prediction-powered Generalization of Causal Inferences** \
