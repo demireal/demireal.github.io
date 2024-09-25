@@ -57,7 +57,7 @@ plugins:
 author:
   name   : "Ilker Demirel"
   avatar : "/assets/images/ilker.png"
-  bio    : "ML for healthcare. Interested in causal inference, decision-making, representation learning."
+  bio    : "ML for health and bio. Causal inference, statistics, decision-making, representation learning."
   location: Cambridge, MA
   linkedin: ilker-demirel-7ab01818a
   links:
