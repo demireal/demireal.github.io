@@ -9,7 +9,8 @@ Hey :) I am a PhD student at [MIT CSAIL](https://www.csail.mit.edu) advised by [
 ## W.I.P.
 
 **Scalable Universal T-cell receptor embeddings from Adaptive Immune Repertoires** \
-P. Chapfuwa, **ID**\*, L. Pisani, J. Zazo, E. Portugaly, J. Zahid, J. Greissl
+P. Chapfuwa, **ID**\*, L. Pisani, J. Zazo, E. Portugaly, J. Zahid, J. Greissl \
+[[paper]](https://openreview.net/pdf?id=oAukQalLzs)
 \*Work done during summer internship at Microsoft Research.
 
 ## Conference
