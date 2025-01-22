@@ -9,12 +9,12 @@ Hey :) I am a PhD student at [MIT CSAIL](https://www.csail.mit.edu) advised by [
 
 **Scalable Universal T-cell receptor embeddings from Adaptive Immune Repertoires** \
 P. Chapfuwa, **ID**\*, L. Pisani, J. Zazo, E. Portugaly, J. Zahid, J. Greissl \
-Submitted to *ICLR*, 2025, [[paper]](https://openreview.net/pdf?id=oAukQalLzs) \
-\*Work done during summer research internship at Microsoft Research.
+*ICLR*, 2025, [[paper]](https://openreview.net/pdf?id=oAukQalLzs) \
+\*Work done during a summer internship at Microsoft Research.
 
 **Prediction-powered Generalization of Causal Inferences** \
 **ID**, A. Alaa, A. Philippakis, D. Sontag \
-*ICML*, 2024. [[paper]](https://arxiv.org/abs/2406.02873) 
+*ICML*, 2024, [[paper]](https://arxiv.org/abs/2406.02873) 
 
 **Benchmarking Observational Studies with Experimental Data under Right-Censoring** \
 **ID**, E.D. Brouwer, Z. Hussain, M. Oberst, A. Philippakis, D. Sontag \
