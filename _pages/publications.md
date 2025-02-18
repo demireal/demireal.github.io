@@ -5,6 +5,12 @@ title: ""
 
 Hey :) I am a PhD student at [MIT CSAIL](https://www.csail.mit.edu) advised by [David Sontag](http://clinicalml.org) and an [EWSC](https://www.ericandwendyschmidtcenter.org) PhD fellow at the Broad Institute of MIT and Harvard.
 
+## Preprint
+
+**Causal Lifting of Neural Representations: Zero-Shot Generalization for Causal Inferences** \
+R. Cadei, **ID**\*, P.D. Bartolomeis, L. Lindorfer, S. Cremer, C. Schmid, F. Locatello \
+*arXiv*, 2025, [[paper]](https://arxiv.org/pdf/2502.06343)
+
 ## Conference
 
 **Scalable Universal T-cell receptor embeddings from Adaptive Immune Repertoires** \
