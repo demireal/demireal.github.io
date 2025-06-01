@@ -46,10 +46,10 @@ Z. Hussain\*, M.C. Shih\*, M. Oberst, **ID**, D. Sontag \
 
 **Federated Multi-Armed Bandits Under Byzantine Attacks** \
 A. Saday, **ID**, Y. Yildirim, C. Tekin \
-*IEEE Transactions on Artificial Intelligence*, 2025, [[paper]](https://arxiv.org/abs/2205.04134)
+*IEEE Transactions on Artificial Intelligence*, 2025, [[paper]](https://ieeexplore.ieee.org/document/10820861)
 
 **Distance and Position Estimation in Visible Light Systems with RGB LEDs** \
 **ID**, S. Gezici \
-*Digital Signal Processing*, Elsevier, 2022, [[paper]](https://ieeexplore.ieee.org/document/10820861)
+*Digital Signal Processing*, Elsevier, 2022, [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S1051200422000409)
 
 
