@@ -50,6 +50,6 @@ A. Saday, **ID**, Y. Yildirim, C. Tekin \
 
 **Distance and Position Estimation in Visible Light Systems with RGB LEDs** \
 **ID**, S. Gezici \
-*Digital Signal Processing*, Elsevier, 2022, [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S1051200422000409)
+*Digital Signal Processing*, Elsevier, 2022, [[paper]](https://ieeexplore.ieee.org/document/10820861)
 
 
