@@ -3,7 +3,11 @@ permalink: /
 title: ""
 ---
 
+Hi there 
+
 Hey :) I am a PhD student at [MIT CSAIL](https://www.csail.mit.edu) advised by [David Sontag](http://clinicalml.org) and an [EWSC](https://www.ericandwendyschmidtcenter.org) PhD fellow at the Broad Institute of MIT and Harvard.
+
+Paris AI4Health Summer School [Causal Inference Hands On Session](https://colab.research.google.com/drive/1qHPv_nHDqhzxx87GHVP5hIun_KDsdQiw?usp=sharing) 
 
 ## Preprint
 
