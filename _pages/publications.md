@@ -11,6 +11,10 @@ Paris AI4Health Summer School [Causal Inference Hands On Session](https://colab.
 
 ## Preprint
 
+**Uncovering Bias Mechanisms in Observational Studies** \
+**ID**<sup>*</sup>, Z. Hussain<sup>*</sup>, P.D. Bartolomeis, D. Sontag \
+*arXiv*, 2025, [[paper]](https://arxiv.org/pdf/2506.01191?)
+
 **Causal Lifting of Neural Representations: Zero-Shot Generalization for Causal Inferences** \
 R. Cadei, **ID**, P.D. Bartolomeis, L. Lindorfer, S. Cremer, C. Schmid, F. Locatello \
 *arXiv*, 2025, [[paper]](https://arxiv.org/pdf/2502.06343)
