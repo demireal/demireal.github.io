@@ -7,7 +7,7 @@ Hey :) I am a PhD student at [MIT CSAIL](https://www.csail.mit.edu) advised by [
 
 (Currently doing a research internship at Apple and will be located in Seattle for Summer'25!)
 
-Paris AI4Health Summer School [Causal Inference Hands On Session](https://colab.research.google.com/drive/1qHPv_nHDqhzxx87GHVP5hIun_KDsdQiw?usp=sharing)  -- In case it does not work for some reason, [Direct Download Link](../causal_inf_practical_session.ipynb)
+Paris AI4Health Summer School [Causal Inference Hands On Session](https://colab.research.google.com/drive/1qHPv_nHDqhzxx87GHVP5hIun_KDsdQiw?usp=sharing)  Solution Key: -- [Colab Notebook](https://colab.research.google.com/drive/1QQQ7bB20U_xLJqc_J4B5f3Kh1alfKOQX)
 
 
 ## Preprint
