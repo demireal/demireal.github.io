@@ -16,14 +16,19 @@ Paris AI4Health Summer School [Causal Inference Hands On Session](https://colab.
 **ID**<sup>\*</sup>, Z. Hussain<sup>\*</sup>, P.D. Bartolomeis, D. Sontag \
 *arXiv*, 2025, [[paper]](https://arxiv.org/pdf/2506.01191?)
 
-**Causal Lifting of Neural Representations: Zero-Shot Generalization for Causal Inferences** \
-R. Cadei, **ID**, P.D. Bartolomeis, L. Lindorfer, S. Cremer, C. Schmid, F. Locatello \
-*arXiv*, 2025, [[paper]](https://arxiv.org/pdf/2502.06343)
-
 ## Conference
 
+**Causal Lifting of Neural Representations: Zero-Shot Generalization for Causal Inferences** \
+R. Cadei, **ID**, P.D. Bartolomeis, L. Lindorfer, S. Cremer, C. Schmid, F. Locatello \
+*NeurIPS*, 2025, [[paper]](https://arxiv.org/pdf/2502.06343)
+
+**Using LLMs for Late Multimodal Sensor Fusion for Activity Recognition** \
+**ID**, K. Thakkar, B. Elizalde, S. Ren, J. Narain \
+*NeurIPS, Time Series for Health Workshop*, 2025, [[paper]](https://arxiv.org/pdf/2509.10729)
+\*Work done during a summer internship at Apple.
+
 **Scalable Universal T-cell receptor embeddings from Adaptive Immune Repertoires** \
-P. Chapfuwa, **ID**\*, L. Pisani, J. Zazo, E. Portugaly, J. Zahid, J. Greissl \
+P. Chapfuwa, **ID**, L. Pisani, J. Zazo, E. Portugaly, J. Zahid, J. Greissl \
 *ICLR*, 2025, [[paper]](https://openreview.net/pdf?id=oAukQalLzs) \
 \*Work done during a summer internship at Microsoft Research.
 
