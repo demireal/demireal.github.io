@@ -19,7 +19,7 @@ R. Cadei, **ID**, P.D. Bartolomeis, L. Lindorfer, S. Cremer, C. Schmid, F. Locat
 
 **Using LLMs for Late Multimodal Sensor Fusion for Activity Recognition** \
 **ID**, K. Thakkar, B. Elizalde, S. Ren, J. Narain \
-*NeurIPS, Time Series for Health Workshop*, 2025, [[paper]](https://arxiv.org/pdf/2509.10729)
+*NeurIPS, Time Series for Health Workshop*, 2025, [[paper]](https://arxiv.org/pdf/2509.10729) \
 \*Work done during a summer internship at Apple.
 
 **Scalable Universal T-cell receptor embeddings from Adaptive Immune Repertoires** \
