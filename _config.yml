@@ -57,7 +57,7 @@ plugins:
 author:
   name   : "Ilker Demirel"
   avatar : "/assets/images/ilker2.png"
-  # bio    : ""
+  bio    : ""
   location: Cambridge, MA
   linkedin: ilker-demirel-7ab01818a
   links:
