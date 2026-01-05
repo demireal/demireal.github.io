@@ -57,7 +57,7 @@ plugins:
 author:
   name   : "Ilker Demirel"
   avatar : "/assets/images/ilker2.png"
-  bio    : "ML for health and bio. Causal inference, statistics, representation learning, time-series."
+  bio    : "I work on causal inference, sample-efficient learning, representation learning, and LLMs mostly in the context of those topics, often applied to healthcare problems."
   location: Cambridge, MA
   linkedin: ilker-demirel-7ab01818a
   links:
