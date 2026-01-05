@@ -118,23 +118,3 @@
   text-align: center !important;
 }
 
-/* Sidebar icons: horizontal, icons only */
-.sidebar .author__urls {
-  display: flex !important;
-  flex-direction: row !important;
-  justify-content: center;
-  gap: 0.9rem;
-  margin-top: 0.4rem;
-}
-
-/* Remove leftover spacing from list items */
-.sidebar .author__urls li {
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-/* Make icons slightly larger and clean */
-.sidebar .author__urls i {
-  font-size: 1.2rem;
-}
-
