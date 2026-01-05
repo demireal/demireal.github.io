@@ -1,2 +1,5 @@
 main:
+  - title: "CV"
+    url: /assets/files/Demirel_Ilker_CV.pdf
+    target: _blank
 
