@@ -5,6 +5,8 @@ title: ""
 
 Hey :) I am a PhD student at [MIT CSAIL](https://www.csail.mit.edu) advised by [David Sontag](http://clinicalml.org) and an [EWSC](https://www.ericandwendyschmidtcenter.org) PhD fellow at the Broad Institute of MIT and Harvard.
 
+I work on causal inference, sample-efficient statistical learning, representation learning, and LLMs, mostly in the context of those topics, often applied to healthcare problems.
+
 ## Preprint
 
 **Uncovering Bias Mechanisms in Observational Studies** \
