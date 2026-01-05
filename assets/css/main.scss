@@ -107,3 +107,9 @@
   color: #4da3ff !important;
   text-decoration: underline;
 }
+
+/* Center ONLY the name under the avatar */
+.sidebar .author__name {
+  text-align: center !important;
+}
+
