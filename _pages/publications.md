@@ -15,7 +15,7 @@ I work on causal inference, sample-efficient statistical learning, representatio
 
 ## Conference
 
-**Causal Lifting of Neural Representations: Zero-Shot Generalization for Causal Inferences** \
+**Prediction-powered Causal Inferences** \
 R. Cadei, **ID**, P.D. Bartolomeis, L. Lindorfer, S. Cremer, C. Schmid, F. Locatello \
 *NeurIPS*, 2025, [[paper]](https://arxiv.org/pdf/2502.06343)
 
