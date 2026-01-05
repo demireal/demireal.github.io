@@ -59,20 +59,21 @@ author:
   name   : "Ilker Demirel"
   avatar : "/assets/images/ilker3.png"
   bio    : ""
+  location: Cambridge, MA
   links:
-    - label: ""
+    - label: "demirel@mit.edu"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:demirel@mit.edu"
 
-    - label: ""
+    - label: "Google Scholar"
       icon: "fa fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=pHAhVlQAAAAJ"
 
-    - label: ""
+    - label: "X-Twitter"
       icon: "fab fa-fw fa-x-twitter"
       url: "https://x.com/ilkerdemirel_"
 
-    - label: ""
+    - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/ilker-demirel-7ab01818a/"
       
