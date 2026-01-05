@@ -3,25 +3,47 @@
 
 @charset "utf-8";
 
-/* Apply the configured skin (dark) */
+/* =========================
+   Apply selected skin (DARK)
+   ========================= */
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 
 /* Core theme */
 @import "minimal-mistakes";
 
 /* =========================
-   Avatar: big + fully colored
+   HIDE TOP MASTHEAD TITLE
+   (keep site.title for SEO)
    ========================= */
-
-/* Big avatar */
-.sidebar .author__avatar {
-  width: 220px !important;
-  display: flex;
-  justify-content: center;
+.site-title,
+.masthead__menu-item--lg > a {
+  display: none !important;
 }
 
+/* =========================
+   SIDEBAR AUTHOR PROFILE
+   ========================= */
+
+/* Single source of truth for avatar/text column width */
+.sidebar {
+  --avatar-col: 220px;
+}
+
+/* Avatar container */
+.sidebar .author__avatar {
+  width: var(--avatar-col) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 0 !important;
+  display: flex;
+  justify-content: center;
+  background: none !important;
+  opacity: 1 !important;
+}
+
+/* Avatar image — big & vivid */
 .sidebar .author__avatar img {
-  width: 220px !important;
+  width: var(--avatar-col) !important;
   height: auto !important;
   max-width: none !important;
   border-radius: 50% !important;
@@ -30,49 +52,37 @@
   box-shadow: none !important;
 }
 
-/* Kill any theme hover/desaturation effects applied to wrapper or image */
+/* Kill ALL hover / grayscale / opacity effects */
 .author__avatar,
 .author__avatar:hover,
-.author__avatar:focus {
-  background: none !important;
-  opacity: 1 !important;
-}
-
+.author__avatar:focus,
 .author__avatar img,
 .author__avatar:hover img,
 .author__avatar:focus img {
   filter: none !important;
   opacity: 1 !important;
+  background: none !important;
 }
 
-/* =========================
-   Sidebar author block layout:
-   Center the whole block under the avatar,
-   but left-align the text inside that block
-   ========================= */
-
-.sidebar .author__content {
-  max-width: 220px;          /* match avatar width */
-  margin-left: auto;
-  margin-right: auto;
-}
-
+/* Center the whole column, left-align text inside */
+.sidebar .author__content,
 .sidebar .author__name,
 .sidebar .author__meta,
 .sidebar .author__urls {
+  width: var(--avatar-col) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
   text-align: left !important;
-}
-
-/* Keep the link list neatly aligned under the name */
-.sidebar .author__urls {
-  display: block;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  box-sizing: border-box;
 }
 
 /* =========================
-   Link styling (content + sidebar)
-   Same color, underline on hover
+   LINK STYLING
    ========================= */
 
+/* Page content links */
 .page__content a,
 .page__content a:visited {
   color: #4da3ff !important;
@@ -97,13 +107,3 @@
   color: #4da3ff !important;
   text-decoration: underline;
 }
-
-/* Ensure name aligns perfectly under avatar */
-.sidebar .author__name {
-  width: 220px;          /* match avatar width */
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0;
-  padding-right: 0;
-}
-
