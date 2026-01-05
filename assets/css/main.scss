@@ -113,3 +113,13 @@
   text-align: center !important;
 }
 
+/* Name centered under avatar */
+.sidebar .author__name {
+  text-align: center !important;
+}
+
+/* Everything below the name left-aligned within the same column */
+.sidebar .author__meta,
+.sidebar .author__urls {
+  text-align: left !important;
+}
