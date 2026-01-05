@@ -1,1 +1,11 @@
+---
+# Only the triple-dashes go here
+---
+
+@import "minimal-mistakes";
+
+/* Double author profile image size */
+.author__avatar img {
+  max-width: 220px !important;
+}
 
