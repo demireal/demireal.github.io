@@ -78,6 +78,11 @@
   box-sizing: border-box;
 }
 
+/* Center ONLY the name under the avatar */
+.sidebar .author__name {
+  text-align: center !important;
+}
+
 /* =========================
    LINK STYLING
    ========================= */
@@ -108,106 +113,26 @@
   text-decoration: underline;
 }
 
-/* Center ONLY the name under the avatar */
-.sidebar .author__name {
-  text-align: center !important;
-}
-
-/* Name centered under avatar */
-.sidebar .author__name {
-  text-align: center !important;
-}
-
 /* =========================
-   Mobile fix: prevent avatar/text overlap
-   ========================= */
-@media (max-width: 600px) {
-  .sidebar {
-    --avatar-col: 150px; /* smaller on phones */
-  }
-
-  /* Ensure nothing is forced into a tight row */
-  .sidebar .author__avatar,
-  .sidebar .author__content,
-  .sidebar .author__name,
-  .sidebar .author__meta,
-  .sidebar .author__urls {
-    width: var(--avatar-col) !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-
-  /* Add a bit of breathing room so it never collides */
-  .sidebar .author__avatar {
-    margin-bottom: 0.5rem !important;
-  }
-}
-
-/* =========================
-   MOBILE FIX: prevent avatar overlapping content
+   MOBILE: prevent overlap + remove "Follow" popover
    ========================= */
 @media (max-width: 768px) {
-
-  /* Reset author profile to normal document flow */
-  .author__avatar {
-    position: static !important;
-    float: none !important;
-    display: block !important;
-    width: 100% !important;
-    margin: 0 auto 1rem auto !important;
+  .sidebar {
+    --avatar-col: 160px; /* phone-friendly avatar size */
   }
 
-  /* Center the image itself */
-  .author__avatar img {
-    display: block !important;
-    margin: 0 auto !important;
-    width: 160px !important;
-    max-width: 70vw !important;
-    height: auto !important;
-  }
-
-  /* Force all text BELOW the avatar */
+  /* Ensure profile stacks naturally */
+  .author__avatar,
   .author__content,
   .author__name,
-  .author__meta,
-  .author__urls {
+  .author__meta {
     position: static !important;
+    float: none !important;
     clear: both !important;
     width: 100% !important;
-    max-width: 360px !important;
+    max-width: 420px !important;
     margin-left: auto !important;
     margin-right: auto !important;
-  }
-
-  /* Keep your preferred alignment */
-  .author__name {
-    text-align: center !important;
-  }
-
-  .author__meta,
-  .author__urls {
-    text-align: left !important;
-  }
-
-  /* Icon row stays horizontal */
-  .author__urls {
-    display: flex !important;
-    justify-content: center !important;
-    gap: 0.9rem !important;
-  }
-}
-
-/* =========================
-   MOBILE: clean author layout + wrap icon row
-   ========================= */
-@media (max-width: 768px) {
-
-  /* Force author block to stack normally */
-  .author__avatar,
-  .author__content {
-    float: none !important;
-    position: static !important;
-    width: 100% !important;
   }
 
   .author__avatar {
@@ -217,34 +142,60 @@
   .author__avatar img {
     display: block !important;
     margin: 0 auto !important;
-    width: 160px !important;
+    width: var(--avatar-col) !important;
     max-width: 70vw !important;
     height: auto !important;
   }
 
-  /* Center name */
   .author__name {
-    width: 100% !important;
     text-align: center !important;
     margin: 0 auto 0.5rem auto !important;
   }
 
-  /* Hide meta line entirely on mobile (kills any leftover location text) */
+  /* Keep meta visible (Location etc.) */
   .author__meta {
+    text-align: left !important;
+    margin: 0 auto 0.75rem auto !important;
+  }
+
+  /* --- CRITICAL FIX ---
+     Minimal Mistakes uses a "Follow" button that opens an absolute-position popover.
+     On mobile that popover overlaps your intro text.
+     We disable the popover layout and show icons inline instead.
+  */
+  .author__urls-wrapper {
+    position: static !important;
+    transform: none !important;
+    width: 100% !important;
+    max-width: 420px !important;
+    margin: 0 auto 1rem auto !important;
+    padding: 0 !important;
+    background: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+  }
+
+  /* Hide the Follow button entirely on mobile */
+  .author__urls-wrapper button,
+  .author__urls-wrapper .btn,
+  .author__urls-wrapper .btn--inverse {
     display: none !important;
   }
 
-  /* ICON ROW: centered + WRAPS instead of overflowing */
+  /* Show icons row inline (no overlay), centered, wrapping */
   .author__urls {
-    width: 100% !important;
-    max-width: 360px !important;
-    margin: 0 auto !important;
-
+    position: static !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    flex-wrap: wrap !important;   /* key */
+    flex-wrap: wrap !important;
     gap: 0.9rem 1.1rem !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    background: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
   }
 
   .author__urls li {
@@ -253,7 +204,7 @@
     white-space: nowrap !important;
   }
 
-  /* Ensure labels stay hidden even if theme tries to show them */
+  /* Keep labels hidden (icons only) */
   .author__urls span,
   .author__urls .author__urls-wrapper,
   .author__urls .author__urls-title,
@@ -262,4 +213,9 @@
   }
 }
 
-
+/* Slightly tighter phones */
+@media (max-width: 600px) {
+  .sidebar {
+    --avatar-col: 150px;
+  }
+}
