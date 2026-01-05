@@ -197,5 +197,69 @@
   }
 }
 
+/* =========================
+   MOBILE: clean author layout + wrap icon row
+   ========================= */
+@media (max-width: 768px) {
+
+  /* Force author block to stack normally */
+  .author__avatar,
+  .author__content {
+    float: none !important;
+    position: static !important;
+    width: 100% !important;
+  }
+
+  .author__avatar {
+    margin: 0 auto 0.75rem auto !important;
+  }
+
+  .author__avatar img {
+    display: block !important;
+    margin: 0 auto !important;
+    width: 160px !important;
+    max-width: 70vw !important;
+    height: auto !important;
+  }
+
+  /* Center name */
+  .author__name {
+    width: 100% !important;
+    text-align: center !important;
+    margin: 0 auto 0.5rem auto !important;
+  }
+
+  /* Hide meta line entirely on mobile (kills any leftover location text) */
+  .author__meta {
+    display: none !important;
+  }
+
+  /* ICON ROW: centered + WRAPS instead of overflowing */
+  .author__urls {
+    width: 100% !important;
+    max-width: 360px !important;
+    margin: 0 auto !important;
+
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;   /* key */
+    gap: 0.9rem 1.1rem !important;
+  }
+
+  .author__urls li {
+    margin: 0 !important;
+    padding: 0 !important;
+    white-space: nowrap !important;
+  }
+
+  /* Ensure labels stay hidden even if theme tries to show them */
+  .author__urls span,
+  .author__urls .author__urls-wrapper,
+  .author__urls .author__urls-title,
+  .author__urls a span {
+    display: none !important;
+  }
+}
 
 
