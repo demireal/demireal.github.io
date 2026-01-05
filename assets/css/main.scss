@@ -97,3 +97,13 @@
   color: #4da3ff !important;
   text-decoration: underline;
 }
+
+/* Ensure name aligns perfectly under avatar */
+.sidebar .author__name {
+  width: 220px;          /* match avatar width */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
