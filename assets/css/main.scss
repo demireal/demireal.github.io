@@ -143,3 +143,51 @@
   }
 }
 
+/* =========================
+   Mobile: hard reset author layout to prevent overlap
+   ========================= */
+@media (max-width: 768px) {
+  /* Stop any float-based layout from the theme */
+  .author__avatar {
+    float: none !important;
+    display: block !important;
+    width: 100% !important;
+    margin: 0 auto 0.75rem auto !important;
+  }
+
+  /* Keep the image centered and sized sanely */
+  .author__avatar img {
+    display: block !important;
+    margin: 0 auto !important;
+    width: 160px !important;     /* adjust if you want */
+    max-width: 70vw !important;
+    height: auto !important;
+  }
+
+  /* Make sure text starts BELOW the avatar */
+  .author__content,
+  .author__name,
+  .author__meta,
+  .author__urls {
+    clear: both !important;
+    width: 100% !important;
+    max-width: 320px !important; /* keeps it visually aligned */
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  /* Name centered, rest left-aligned (your preference) */
+  .author__name { text-align: center !important; }
+  .author__meta,
+  .author__urls { text-align: left !important; }
+
+  /* Icon row centered (since labels are hidden) */
+  .author__urls {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    gap: 0.9rem !important;
+  }
+}
+
+
