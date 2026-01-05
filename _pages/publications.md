@@ -11,23 +11,23 @@ I work on causal inference, sample-efficient statistical learning, representatio
 
 **Uncovering Bias Mechanisms in Observational Studies** \
 **ID**<sup>\*</sup>, Z. Hussain<sup>\*</sup>, P.D. Bartolomeis, D. Sontag \
-*arXiv*, 2025, [[paper]](https://arxiv.org/pdf/2506.01191?)
+*arXiv*, 2025 [[paper]](https://arxiv.org/pdf/2506.01191?), \*equal contribution
 
 ## Conference
 
 **Prediction-powered Causal Inferences** \
-R. Cadei, **ID**, P.D. Bartolomeis, L. Lindorfer, S. Cremer, C. Schmid, F. Locatello \
-*NeurIPS*, 2025, [[paper]](https://arxiv.org/pdf/2502.06343)
+R. Cadei, **ID**<sup>\*</sup>, P.D. Bartolomeis<sup>\*</sup>, L. Lindorfer, S. Cremer, C. Schmid, F. Locatello \
+*NeurIPS*, 2025, [[paper]](https://arxiv.org/pdf/2502.06343), \*equal contribution
 
 **Using LLMs for Late Multimodal Sensor Fusion for Activity Recognition** \
 **ID**, K. Thakkar, B. Elizalde, S. Ren, J. Narain \
 *NeurIPS, Time Series for Health Workshop*, 2025, [[paper]](https://arxiv.org/pdf/2509.10729) \
-\*Work done during a summer internship at Apple.
+-Work done during a summer internship at Apple.
 
 **Scalable Universal T-cell receptor embeddings from Adaptive Immune Repertoires** \
 P. Chapfuwa, **ID**, L. Pisani, J. Zazo, E. Portugaly, J. Zahid, J. Greissl \
 *ICLR*, 2025, [[paper]](https://openreview.net/pdf?id=oAukQalLzs) \
-\*Work done during a summer internship at Microsoft Research.
+-Work done during a summer internship at Microsoft Research.
 
 **Prediction-powered Generalization of Causal Inferences** \
 **ID**, A. Alaa, A. Philippakis, D. Sontag \
@@ -39,7 +39,7 @@ P. Chapfuwa, **ID**, L. Pisani, J. Zazo, E. Portugaly, J. Zahid, J. Greissl \
 
 **Falsification of Internal and External Validity in Observational Studies via Conditional Moment Restrictions** \
 Z. Hussain\*, M.C. Shih\*, M. Oberst, **ID**, D. Sontag \
-*AISTATS*, 2023, \*equal contribution, [[paper]](https://proceedings.mlr.press/v206/hussain23a.html)
+*AISTATS*, 2023, [[paper]](https://proceedings.mlr.press/v206/hussain23a.html), \*equal contribution
 
 **ESCADA: Efficient Safety and Context Aware Dose Allocation for Precision Medicine** \
 **ID**, A.A. Celik, C. Tekin \
