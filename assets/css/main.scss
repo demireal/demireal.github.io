@@ -9,3 +9,12 @@
   max-width: 220px !important;
 }
 
+.page__content a {
+  color: #4da3ff;
+  transition: color 0.15s ease-in-out;
+}
+
+.page__content a:hover {
+  color: #4da3ff;
+  text-decoration: underline;
+}
