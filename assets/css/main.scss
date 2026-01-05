@@ -219,3 +219,56 @@
     --avatar-col: 150px;
   }
 }
+
+/* =========================================================
+   LAST 5%: override the actual popover class used by MM
+   Put this at the VERY END of main.scss
+   ========================================================= */
+@media (max-width: 768px) {
+
+  /* The theme often positions THIS as an absolute popover */
+  body .sidebar .author__urls-wrapper .social-icons,
+  body .sidebar .author__urls-wrapper ul.social-icons,
+  body .sidebar .author__urls-wrapper .author__urls {
+    position: static !important;
+    inset: auto !important;
+    top: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+    transform: none !important;
+    float: none !important;
+    clear: both !important;
+
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+
+    width: 100% !important;
+    margin: 0.75rem auto 1rem auto !important;
+    padding: 0 !important;
+
+    background: none !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    z-index: auto !important;
+    gap: 0.9rem 1.1rem !important;
+  }
+
+  /* Make sure avatar isn't being overlapped by any stacking context */
+  body .sidebar .author__avatar,
+  body .sidebar .author__avatar img {
+    position: relative !important;
+    z-index: 1 !important;
+  }
+
+  /* Icons are just normal content below */
+  body .sidebar .author__urls-wrapper {
+    position: static !important;
+    display: block !important;
+    margin-top: 0.75rem !important;
+    z-index: auto !important;
+  }
+}
+
