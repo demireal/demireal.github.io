@@ -1,20 +1,82 @@
 ---
-# Only the triple-dashes go here
 ---
 
 @import "minimal-mistakes";
 
-/* Double author profile image size */
-.author__avatar img {
-  max-width: 220px !important;
+/* =========================
+   Dark theme basics (you already set minimal_mistakes_skin: dark)
+   Keeping here only for safety; you can delete if you want.
+   ========================= */
+
+/* =========================
+   Sidebar author profile:
+   - big avatar
+   - keep it vivid (no grayscale/opacity tricks)
+   - center text under it
+   ========================= */
+
+/* Big avatar */
+.sidebar .author__avatar {
+  width: 220px !important;
 }
 
-.page__content a {
+.sidebar .author__avatar img {
+  width: 220px !important;
+  height: auto !important;
+  max-width: none !important;
+  border-radius: 50% !important; /* keep circular */
+}
+
+/* Disable the theme's "pale until hover" effect */
+.author__avatar img,
+.author__avatar:hover img {
+  filter: none !important;
+  opacity: 1 !important;
+}
+
+/* Center the author block text/links under the image */
+.sidebar .author__content,
+.sidebar .author__name,
+.sidebar .author__meta,
+.sidebar .author__urls {
+  text-align: center !important;
+}
+
+/* If the theme uses a list, center the list container too */
+.sidebar .author__urls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* =========================
+   Link styling in page content:
+   - keep same color as your screenshot
+   - underline on hover
+   - no visited-color shift
+   ========================= */
+
+.page__content a,
+.page__content a:visited {
   color: #4da3ff;
   transition: color 0.15s ease-in-out;
 }
 
-.page__content a:hover {
+.page__content a:hover,
+.page__content a:focus {
+  color: #4da3ff;
+  text-decoration: underline;
+}
+
+/* Optional: make sidebar links match too (email / scholar / linkedin) */
+.sidebar a,
+.sidebar a:visited {
+  color: #4da3ff;
+  transition: color 0.15s ease-in-out;
+}
+
+.sidebar a:hover,
+.sidebar a:focus {
   color: #4da3ff;
   text-decoration: underline;
 }
