@@ -1,0 +1,32 @@
+- date: "Mar 2026"
+  text: "New <a href='https://arxiv.org/pdf/2603.11679'>preprint</a>! We use LLMs to streamline building powerful input representations in complex datasets to enable sample-efficient downstream learning."
+
+- date: "Dec 2025"
+  text: "Presenting two papers at NeurIPS! <a href='https://arxiv.org/pdf/2509.10729'>Zero-shot activity prediction with multimodal data using LLMs</a> from my summer internship at Apple, and <a href='https://openreview.net/pdf?id=HOa6LTIjyn'>prediction-powered causal inferences</a> with R. Cadei and P.D. Bartolomeis."
+
+- date: "Oct 2025"
+  text: "Presenting <a href='https://openreview.net/pdf?id=QKnWXX3aVm'>Prediction-powered generalization of causal inferences</a> at <a href='https://imes.mit.edu'>IMES</a> retreat! Slides are <a href='assets/files/lids-talk-ppci.pdf'>here</a>."
+
+- date: "Jul 2025"
+  text: "I gave a hands-on practical workshop on causal inference at <a href='https://www.prairie-psai.fr/agenda/summer-school-ai4health-3/'>Paris AI4Health school</a>! The material is <a href='https://colab.research.google.com/drive/1qHPv_nHDqhzxx87GHVP5hIun_KDsdQiw?usp=sharing'>here</a>."
+
+- date: "Jun 2025"
+  text: "New <a href='https://arxiv.org/pdf/2506.01191'>preprint</a>! We propose a method for detecting the source of bias in observational data by evaluating it against experimental data."
+
+- date: "May 2025"
+  text: "Started my summer research internship at <a href='https://machinelearning.apple.com'>Apple</a>! I'll work on reasoning over multimodal data with LLMs."
+
+- date: "Feb 2025"
+  text: "Serving as the discussant for <a href='https://mymakar.github.io'>Maggie Makar's</a> talk at the <a href='https://datascience.harvard.edu/calendar_event/causal-seminar-maggie-makar/'>causal inference seminar</a> organized by the Harvard Data Science Initiative!"
+
+- date: "Jan 2025"
+  text: "<a href='https://openreview.net/pdf?id=wyF5vNIsO7'>T-cell representation learning work</a> from my Microsoft internship is accepted at ICLR! We developed an approximate linear-time method for scalable learning of T-cell representations."
+
+- date: "Jul 2024"
+  text: "Presenting <a href='https://openreview.net/pdf?id=QKnWXX3aVm'>Prediction-powered generalization of causal inferences</a> at ICML in Vienna!"
+
+- date: "May 2024"
+  text: "Started my summer research internship at <a href='https://www.microsoft.com/en-us/research/about-microsoft-research/'>Microsoft</a>! I'll work on developing better representations & models of the human immune system."
+
+- date: "Apr 2024"
+  text: "Presenting <a href='https://proceedings.mlr.press/v238/demirel24a/demirel24a.pdf'>Benchmarking observational studies with experimental data under right-censoring</a> at AISTATS in Valencia!"

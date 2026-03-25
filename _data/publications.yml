@@ -1,0 +1,206 @@
+# ── Preprints ──────────────────────────────────────────────
+
+- title: "LLMs can construct powerful representations and streamline sample-efficient supervised learning"
+  authors: "<strong>I. Demirel</strong>, L. Shi, Z. Hussain, D. Sontag"
+  venue: "arXiv"
+  year: 2026
+  category: preprint
+  selected: true
+  image: "/assets/thumbnails/lrrl.png"
+  alt: ""
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2603.11679"
+    - label: "Slides"
+      url: "/assets/files/LRRL-slides.pdf"
+    - label: "Website"
+      url: "https://lrrlpaper.github.io"
+
+- title: "Uncovering Bias Mechanisms in Observational Studies"
+  authors: "<strong>I. Demirel</strong>*, Z. Hussain*, P.D. Bartolomeis, D. Sontag"
+  venue: "arXiv"
+  year: 2025
+  category: preprint
+  selected: false
+  image: "/assets/thumbnails/uncovering.png"
+  alt: ""
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/pdf/2506.01191"
+    - label: "Code"
+      url: "https://github.com/clinicalml/benchmarking-os"
+  note: "*equal contribution"
+
+# ── Conference ─────────────────────────────────────────────
+
+- title: "Prediction-powered Causal Inferences"
+  authors: "R. Cadei, <strong>I. Demirel</strong>*, P.D. Bartolomeis*, L. Lindorfer, S. Cremer, C. Schmid, F. Locatello"
+  venue: "NeurIPS"
+  year: 2025
+  category: conference
+  selected: true
+  image: "/assets/thumbnails/ppci.png"
+  alt: ""
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/pdf/2502.06343"
+    - label: "Code"
+      url: "https://github.com/CausalLearningAI/ISTAnt"
+  note: "*equal contribution"
+
+- title: "Using LLMs for Late Multimodal Sensor Fusion for Activity Recognition"
+  authors: "<strong>I. Demirel</strong>, K. Thakkar, B. Elizalde, M. Espi Marques, A. Sarathy, Y. Bai, U. Srinivas, J. Xu, S. Ren, J. Narain"
+  venue: "NeurIPS, Time Series for Health Workshop"
+  year: 2025
+  category: conference
+  selected: true
+  image: "/assets/thumbnails/activity.png"
+  alt: ""
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/pdf/2509.10729"
+  note: "Work done during a summer internship at Apple."
+
+- title: "Scalable Universal T-cell receptor embeddings from Adaptive Immune Repertoires"
+  authors: "P. Chapfuwa, <strong>I. Demirel</strong>, L. Pisani, J. Zazo, E. Portugaly, J. Zahid, J. Greissl"
+  venue: "ICLR"
+  year: 2025
+  category: conference
+  selected: false
+  image: "/assets/thumbnails/immune.png"
+  alt: ""
+  links:
+    - label: "Paper"
+      url: "https://openreview.net/pdf?id=oAukQalLzs"
+  note: "Work done during a summer internship at Microsoft Research."
+
+- title: "Prediction-powered Generalization of Causal Inferences"
+  authors: "<strong>I. Demirel</strong>, A. Alaa, A. Philippakis, D. Sontag"
+  venue: "ICML"
+  year: 2024
+  category: conference
+  selected: true
+  image: "/assets/thumbnails/ppgci-icml.png"
+  alt: ""
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2406.02873"
+    - label: "Code"
+      url: "https://github.com/demireal/ppci"
+    - label: "Slides"
+      url: "/assets/files/lids-talk-ppci.pdf"
+
+- title: "Benchmarking Observational Studies with Experimental Data under Right-Censoring"
+  authors: "<strong>I. Demirel</strong>, E.D. Brouwer, Z. Hussain, M. Oberst, A. Philippakis, D. Sontag"
+  venue: "AISTATS"
+  year: 2024
+  category: conference
+  selected: true
+  image: "/assets/thumbnails/benchmarking.png"
+  alt: ""
+  links:
+    - label: "Paper"
+      url: "https://proceedings.mlr.press/v238/demirel24a.html"
+    - label: "Code"
+      url: "https://github.com/demireal/censored-mmr"
+    - label: "Slides"
+      url: "/assets/files/benchmark-right-censor.pdf"
+
+- title: "Falsification of Internal and External Validity in Observational Studies via Conditional Moment Restrictions"
+  authors: "Z. Hussain*, M.C. Shih*, M. Oberst, <strong>I. Demirel</strong>, D. Sontag"
+  venue: "AISTATS"
+  year: 2023
+  category: conference
+  selected: false
+  image: "/assets/thumbnails/falsification.png"
+  alt: ""
+  links:
+    - label: "Paper"
+      url: "https://proceedings.mlr.press/v206/hussain23a.html"
+    - label: "Code"
+      url: "https://github.com/clinicalml/rct-obs-falsification"
+    - label: "Slides"
+      url: "/assets/files/Falsification-aistats-23.pdf"
+  note: "*equal contribution"
+
+- title: "ESCADA: Efficient Safety and Context Aware Dose Allocation for Precision Medicine"
+  authors: "<strong>I. Demirel</strong>, A.A. Celik, C. Tekin"
+  venue: "NeurIPS"
+  year: 2022
+  category: conference
+  selected: true
+  image: "/assets/thumbnails/escada.png"
+  alt: ""
+  links:
+    - label: "Paper"
+      url: "https://proceedings.neurips.cc/paper_files/paper/2022/hash/afddff15817993412489a7df483da7d9-Abstract-Conference.html"
+    - label: "Code"
+      url: "https://github.com/Bilkent-CYBORG/ESCADA"
+    - label: "Slides"
+      url: "/assets/files/P1_ML4H_Workshop.pdf"
+    - label: "Website"
+      url: "http://ml4health.bilkent.edu.tr/"
+
+- title: "Combinatorial Gaussian Process Bandits with Probabilistically Triggered Arms"
+  authors: "<strong>I. Demirel</strong>, C. Tekin"
+  venue: "AISTATS"
+  year: 2021
+  category: conference
+  selected: false
+  image: "/assets/thumbnails/comgp-ucb.png"
+  alt: ""
+  links:
+    - label: "Paper"
+      url: "https://proceedings.mlr.press/v130/demirel21a.html"
+
+- title: "Accuracy limits of distance estimation in visible light systems with RGB LEDs"
+  authors: "<strong>I. Demirel</strong>, S. Gezici"
+  venue: "IEEE PIMRC"
+  year: 2019
+  category: conference
+  selected: false
+  image: "/assets/thumbnails/pimrc.png"
+  alt: ""
+  links:
+    - label: "Paper"
+      url: "https://ieeexplore.ieee.org/abstract/document/8904457/"
+
+- title: "Association of Eicosanoid Metabolites With Cardiac Structure and Function"
+  authors: "A. Roshandelpoor, J. Ma, <strong>I. Demirel</strong>, E. Lau, M. Alotaibi, M.F. Ramirez Fernandez Del Castillo, J. Parekh, A. Pan, N. Owunna, V. Varadarajan, M. Jain, S. Cheng, J.A.C.A. Lima, J.E. Ho"
+  venue: "AHA Scientific Sessions, Circulation"
+  year: 2023
+  category: conference
+  selected: false
+  image: "/assets/thumbnails/metabolomic.png"
+  alt: ""
+  links:
+    - label: "Paper"
+      url: "https://www.ahajournals.org/doi/abs/10.1161/circ.148.suppl_1.14625"
+
+# ── Journal ────────────────────────────────────────────────
+
+- title: "Federated Multi-Armed Bandits Under Byzantine Attacks"
+  authors: "A. Saday, <strong>I. Demirel</strong>, Y. Yildirim, C. Tekin"
+  venue: "IEEE Transactions on Artificial Intelligence"
+  year: 2025
+  category: journal
+  selected: false
+  image: "/assets/thumbnails/federated.png"
+  alt: ""
+  links:
+    - label: "Paper"
+      url: "https://ieeexplore.ieee.org/document/10820861"
+    - label: "Code"
+      url: "https://github.com/Bilkent-CYBORG/Fed-MoM-UCB"
+
+- title: "Distance and Position Estimation in Visible Light Systems with RGB LEDs"
+  authors: "<strong>I. Demirel</strong>, S. Gezici"
+  venue: "Digital Signal Processing, Elsevier"
+  year: 2022
+  category: journal
+  selected: false
+  image: "/assets/thumbnails/dsp.png"
+  alt: ""
+  links:
+    - label: "Paper"
+      url: "https://www.sciencedirect.com/science/article/abs/pii/S1051200422000409"

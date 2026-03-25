@@ -1,0 +1,21 @@
+<div class="pub-card">
+  <div class="pub-card__thumb">
+    {% if pub.image and pub.image != "" %}
+      <img src="{{ pub.image | relative_url }}" alt="{{ pub.alt | default: pub.title }}" class="pub-card__img" onclick="openLightbox(this.src, this.alt)">
+    {% else %}
+      <div class="pub-card__placeholder"></div>
+    {% endif %}
+  </div>
+  <div class="pub-card__body">
+    <h3 class="pub-card__title">{{ pub.title }}</h3>
+    <p class="pub-card__authors">{{ pub.authors }}</p>
+    <p class="pub-card__venue"><em>{{ pub.venue }}</em>, {{ pub.year }}{% if pub.note %} &mdash; {{ pub.note }}{% endif %}</p>
+    {% if pub.links %}
+      <div class="pub-card__links">
+        {% for link in pub.links %}
+          <a href="{{ link.url }}" class="pub-pill pub-pill--{{ link.label | downcase }}" target="_blank" rel="noopener">{{ link.label }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</div>

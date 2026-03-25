@@ -1,7 +1,109 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+layout: default
+title: ""
 ---
+
+<!-- ── Hero ────────────────────────────────────────────── -->
+<section class="hero">
+  <img src="{{ '/assets/images/ilker3.png' | relative_url }}"
+       alt="Ilker Demirel"
+       class="hero__photo">
+  <div class="hero__info">
+    <h1 class="hero__name">ilker demirel</h1>
+    <p class="hero__title">PhD Student &middot; <a href="https://www.csail.mit.edu" class="hero__link">MIT CSAIL</a> &middot; <a href="http://clinicalml.org" class="hero__link">ClinicalML</a></p>
+    <p class="hero__detail">Cambridge, MA &middot; demirel at mit.edu</p>
+    <div class="hero__socials">
+      <a href="mailto:demirel@mit.edu" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://scholar.google.com/citations?user=pHAhVlQAAAAJ" target="_blank" rel="noopener" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+      <a href="https://x.com/ilkerdemirel_" target="_blank" rel="noopener" title="X / Twitter"><i class="fab fa-x-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/ilker-demirel-7ab01818a/" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/demireal" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ── About ───────────────────────────────────────────── -->
+<section class="section">
+  <h2 class="section__heading">about</h2>
+  <p>
+    Hey :) I'm a 4th-year Computer Science / Artificial Intelligence PhD student at <a href="https://www.csail.mit.edu">MIT</a>,
+    advised by <a href="http://clinicalml.org">David Sontag</a>, and an
+    <a href="https://www.ericandwendyschmidtcenter.org">EWSC</a> PhD fellow at
+    the Broad Institute of MIT and Harvard. Previously, I spent two summers at
+    <a href="https://machinelearning.apple.com">Apple</a> and 
+    <a href="https://www.microsoft.com/en-us/research/about-microsoft-research/">Microsoft</a> as a research intern.
+    I received my bachelor's in electrical and electronics engineering from <a href="https://www.bilkent.edu.tr">Bilkent University</a>.
+    I am originally from <a href="https://en.wikipedia.org/wiki/Kars">Kars, Türkiye</a>.
+  </p>
+</section>
+
+<!-- ── Research Interests ──────────────────────────────── -->
+<section class="section">
+  <h2 class="section__heading">research</h2>
+
+  <p>
+    I am interested in representation learning, large language models (LLMs), sample-efficient learning, causal inference, and continual learning, often applied to healthcare.
+  </p>
+
+  <p>
+    <span class="ri-label">LLMs + representation learning + sample-efficiency:</span>
+    How can LLMs help learn and design good representations of data&mdash;particularly in complex domains&mdash;that enable sample-efficient downstream learning?<a class="ri-ref" href="https://arxiv.org/pdf/2603.11679"><sup>1</sup></a><a class="ri-ref" href="https://arxiv.org/pdf/2509.10729"><sup>2</sup></a>
+  </p>
+
+  <p>
+    <span class="ri-label">Causal inference + sample-efficiency:</span>
+    How can we integrate large-scale real-world evidence with small-scale experimental data to power valid and efficient causal inference?<a class="ri-ref" href="https://arxiv.org/pdf/2406.02873"><sup>3</sup></a><a class="ri-ref" href="https://arxiv.org/pdf/2502.06343"><sup>4</sup></a><a class="ri-ref" href="https://proceedings.mlr.press/v238/demirel24a/demirel24a.pdf"><sup>5</sup></a><a class="ri-ref" href="https://arxiv.org/pdf/2506.01191"><sup>6</sup></a><a class="ri-ref" href="https://proceedings.mlr.press/v206/hussain23a/hussain23a.pdf"><sup>7</sup></a>
+  </p>
+
+  <p>
+    During my PhD, I have also worked on AI for science, including learning representations for the adaptive immune system,<a class="ri-ref" href="https://openreview.net/pdf?id=oAukQalLzs"><sup>8</sup></a> and predictive modeling with metabolomic and proteomic data.<a class="ri-ref" href="https://www.ahajournals.org/doi/abs/10.1161/circ.148.suppl_1.14625"><sup>9</sup></a> Before my PhD, I worked on reinforcement learning for personalized type-1 diabetes management<a class="ri-ref" href="https://proceedings.neurips.cc/paper_files/paper/2022/file/afddff15817993412489a7df483da7d9-Paper-Conference.pdf"><sup>10</sup></a> and dabbled in communication networks theory.<a class="ri-ref" href="https://ieeexplore.ieee.org/abstract/document/8904457/"><sup>11</sup></a><a class="ri-ref" href="https://www.sciencedirect.com/science/article/abs/pii/S1051200422000409"><sup>12</sup></a>
+  </p>
+
+  <p>
+    Always happy to chat about research&mdash;the best way to reach me is via <a href="mailto:demirel@mit.edu">email</a>.
+  </p>
+</section>
+
+<!-- ── Selected Publications ───────────────────────────── -->
+<section class="section">
+  <h2 class="section__heading">selected work</h2>
+  {% for pub in site.data.publications %}
+    {% if pub.selected %}
+      {% include pub-card.html pub=pub %}
+    {% endif %}
+  {% endfor %}
+</section>
+
+<!-- ── News ─────────────────────────────────────────────── -->
+<section class="section">
+  <h2 class="section__heading">news</h2>
+  <ul class="news-list" id="news-list">
+    {% for item in site.data.news %}
+      <li class="news-item{% if forloop.index > 5 %} news-item--hidden{% endif %}">
+        <span class="news-date">{{ item.date }}</span>
+        <span class="news-text">{{ item.text }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+  {% if site.data.news.size > 5 %}
+    <button class="news-toggle" id="news-toggle" aria-expanded="false">
+      <span class="news-toggle__text">Show more</span>
+      <i class="fas fa-chevron-down news-toggle__icon"></i>
+    </button>
+  {% endif %}
+</section>
+
+<script>
+(function() {
+  var btn = document.getElementById('news-toggle');
+  if (!btn) return;
+  var list = document.getElementById('news-list');
+  btn.addEventListener('click', function() {
+    var expanded = btn.getAttribute('aria-expanded') === 'true';
+    list.classList.toggle('news-list--expanded', !expanded);
+    btn.setAttribute('aria-expanded', !expanded);
+    btn.querySelector('.news-toggle__text').textContent = expanded ? 'Show more' : 'Show less';
+    btn.classList.toggle('news-toggle--open', !expanded);
+  });
+})();
+</script>
