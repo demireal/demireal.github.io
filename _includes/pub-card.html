@@ -13,7 +13,7 @@
     {% if pub.links %}
       <div class="pub-card__links">
         {% for link in pub.links %}
-          <a href="{{ link.url }}" class="pub-pill pub-pill--{{ link.label | downcase }}" target="_blank" rel="noopener">{{ link.label }}</a>
+          <a href="{{ link.url }}" class="pub-pill pub-pill--{{ link.label | downcase }}" target="_blank" rel="noopener">{% if link.label == "Paper" %}<i class="fas fa-file-lines"></i> {% elsif link.label == "Code" %}<i class="fab fa-github"></i> {% elsif link.label == "Slides" %}<i class="fas fa-file-powerpoint"></i> {% elsif link.label == "Website" %}<i class="fas fa-globe"></i> {% endif %}{{ link.label }}</a>
         {% endfor %}
       </div>
     {% endif %}

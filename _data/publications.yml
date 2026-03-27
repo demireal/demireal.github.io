@@ -11,6 +11,8 @@
   links:
     - label: "Paper"
       url: "https://arxiv.org/abs/2603.11679"
+    - label: "Code"
+      url: "https://github.com/demireal/LRRL"
     - label: "Slides"
       url: "/assets/files/LRRL-slides.pdf"
     - label: "Website"

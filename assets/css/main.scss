@@ -427,7 +427,10 @@ a:hover   { text-decoration: underline; }
   margin-top: 0.5rem;
 }
 
-/* Link pills */
+.pub-pill i {
+  margin-right: 4px;
+}
+
 .pub-pill {
   display: inline-block;
   font-size: 0.78rem;
