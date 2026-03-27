@@ -108,6 +108,18 @@
     - label: "Slides"
       url: "/assets/files/benchmark-right-censor.pdf"
 
+- title: "Association of Eicosanoid Metabolites With Cardiac Structure and Function"
+  authors: "A. Roshandelpoor, J. Ma, <strong>I. Demirel</strong>, E. Lau, M. Alotaibi, M.F. Ramirez Fernandez Del Castillo, J. Parekh, A. Pan, N. Owunna, V. Varadarajan, M. Jain, S. Cheng, J.A.C.A. Lima, J.E. Ho"
+  venue: "AHA Scientific Sessions, Circulation"
+  year: 2023
+  category: conference
+  selected: false
+  image: "/assets/thumbnails/metabolomic.png"
+  alt: ""
+  links:
+    - label: "Paper"
+      url: "https://www.ahajournals.org/doi/abs/10.1161/circ.148.suppl_1.14625"
+
 - title: "Falsification of Internal and External Validity in Observational Studies via Conditional Moment Restrictions"
   authors: "Z. Hussain*, M.C. Shih*, M. Oberst, <strong>I. Demirel</strong>, D. Sontag"
   venue: "AISTATS"
@@ -166,18 +178,6 @@
   links:
     - label: "Paper"
       url: "https://ieeexplore.ieee.org/abstract/document/8904457/"
-
-- title: "Association of Eicosanoid Metabolites With Cardiac Structure and Function"
-  authors: "A. Roshandelpoor, J. Ma, <strong>I. Demirel</strong>, E. Lau, M. Alotaibi, M.F. Ramirez Fernandez Del Castillo, J. Parekh, A. Pan, N. Owunna, V. Varadarajan, M. Jain, S. Cheng, J.A.C.A. Lima, J.E. Ho"
-  venue: "AHA Scientific Sessions, Circulation"
-  year: 2023
-  category: conference
-  selected: false
-  image: "/assets/thumbnails/metabolomic.png"
-  alt: ""
-  links:
-    - label: "Paper"
-      url: "https://www.ahajournals.org/doi/abs/10.1161/circ.148.suppl_1.14625"
 
 # ── Journal ────────────────────────────────────────────────
 
