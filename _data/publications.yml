@@ -20,9 +20,9 @@
 
 - title: "Uncovering Bias Mechanisms in Observational Studies"
   authors: "<strong>I. Demirel</strong>*, Z. Hussain*, P.D. Bartolomeis, D. Sontag"
-  venue: "arXiv"
-  year: 2025
-  category: preprint
+  venue: "ICML"
+  year: 2026
+  category: conference
   selected: false
   image: "/assets/thumbnails/uncovering.png"
   alt: ""
