@@ -35,7 +35,7 @@
   venue: "ICML"
   year: 2026
   category: conference
-  selected: false
+  selected: true
   image: "/assets/thumbnails/uncovering.png"
   alt: ""
   links:
@@ -52,7 +52,7 @@
   venue: "NeurIPS"
   year: 2025
   category: conference
-  selected: true
+  selected: false
   image: "/assets/thumbnails/ppci.png"
   alt: ""
   links:
