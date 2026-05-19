@@ -18,6 +18,18 @@
     - label: "Website"
       url: "https://lrrlpaper.github.io"
 
+  - title: "Machine learning cross-platform proteomic imputation enables protein quality scoring and replication of epidemiological associations"
+  authors: "L. Li, A. Alaa, Y. Tan, <strong>I. Demirel</strong>, S. Friedman, Q. Zha, R. Tracy, K. D. Taylor, B. Yu, C. M. Ballantyne, R. Deo, R. Dubin, M. Y. Tsai, G. M. Peloso, J. Brody, T. Austin, B. M. Psaty, J. Nicholas, L. M. Raffield, U. Tahir, J. Coresh, W. Hornsby, A. Chan, S. S. Rich, J. I. Rotter, P. Ganz, R. Gerszten, A. Philippakis, P. Natarajan, Z. Yu"
+  venue: "bioRxiv"
+  year: 2026
+  category: preprint
+  selected: false
+  image: "/assets/thumbnails/proteomics.png"
+  alt: ""
+  links:
+    - label: "Paper"
+      url: "https://www.biorxiv.org/content/10.64898/2026.05.05.723059v1.abstract"
+
 - title: "Uncovering Bias Mechanisms in Observational Studies"
   authors: "<strong>I. Demirel</strong>*, Z. Hussain*, P.D. Bartolomeis, D. Sontag"
   venue: "ICML"
