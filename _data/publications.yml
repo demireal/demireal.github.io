@@ -154,7 +154,7 @@
   venue: "NeurIPS"
   year: 2022
   category: conference
-  selected: true
+  selected: false
   image: "/assets/thumbnails/escada.png"
   alt: ""
   links:
