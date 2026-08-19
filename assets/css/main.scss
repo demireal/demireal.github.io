@@ -16,10 +16,10 @@
   --accent:         #111111;
   --accent-soft:    #666666;
   --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-serif: 'Fraunces', 'Iowan Old Style', Georgia, serif;
+  --font-display: 'Space Grotesk', 'Inter', -apple-system, sans-serif;
   --font-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
-  --max-w: 720px;
-  --radius: 10px;
+  --max-w: 780px;
+  --radius: 12px;
 }
 
 /* ============================================================
@@ -103,10 +103,10 @@ a:hover {
 }
 
 .nav__name {
-  font-family: var(--font-serif);
-  font-size: 1.05rem;
+  font-family: var(--font-display);
+  font-size: 1rem;
   font-weight: 600;
-  font-style: italic;
+  letter-spacing: 0.01em;
   color: var(--text);
   text-decoration: none;
 }
@@ -149,26 +149,24 @@ a:hover {
 
 .hero__photo {
   width: 190px;
-  height: 240px;
+  height: 230px;
   object-fit: cover;
-  border-radius: 999px 999px 14px 14px; /* arch */
-  border: 1px solid var(--border);
-  box-shadow: 6px 6px 0 0 color-mix(in srgb, var(--accent) 18%, transparent);
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  border-radius: var(--radius);
+  filter: grayscale(35%);
+  transition: filter 0.3s ease;
   flex-shrink: 0;
 }
 .hero__photo:hover {
-  transform: translate(-2px, -2px);
-  box-shadow: 9px 9px 0 0 color-mix(in srgb, var(--accent) 26%, transparent);
+  filter: grayscale(0%);
 }
 
 .hero__info { display: flex; flex-direction: column; gap: 0.5rem; }
 
 .hero__name {
-  font-family: var(--font-serif);
-  font-size: 2.6rem;
-  font-weight: 550;
-  letter-spacing: -0.01em;
+  font-family: var(--font-display);
+  font-size: 2.7rem;
+  font-weight: 600;
+  letter-spacing: -0.03em;
   line-height: 1.15;
 }
 
@@ -240,7 +238,7 @@ a:hover {
   display: flex;
   align-items: center;
   gap: 1rem;
-  font-family: var(--font);
+  font-family: var(--font-display);
   font-size: 0.78rem;
   font-weight: 600;
   letter-spacing: 0.14em;
@@ -265,9 +263,7 @@ a:hover {
 }
 
 .ri-label {
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-weight: 550;
+  font-weight: 600;
   color: var(--accent);
 }
 
@@ -322,16 +318,19 @@ a:hover {
 }
 
 .pub-item__venue {
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-size: 0.85rem;
-  font-weight: 500;
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
   color: var(--accent-soft);
 }
 
 .pub-item__title {
-  font-size: 1rem;
+  font-family: var(--font-display);
+  font-size: 1.02rem;
   font-weight: 550;
+  letter-spacing: -0.01em;
   line-height: 1.45;
   color: var(--text);
   margin-bottom: 0.35rem;
@@ -395,8 +394,6 @@ a:hover {
 
 .scholar-note {
   font-size: 0.86rem;
-  font-style: italic;
-  font-family: var(--font-serif);
   color: var(--text-muted);
   margin-top: 1.2rem;
 }
@@ -567,8 +564,6 @@ a:hover {
 .cv-hint {
   text-align: center;
   font-size: 0.82rem;
-  font-style: italic;
-  font-family: var(--font-serif);
   color: var(--text-muted);
   margin-top: 0.9rem;
 }
@@ -636,7 +631,6 @@ a:hover {
 
 .cv-note {
   font-size: 0.8rem;
-  font-style: italic;
   color: var(--text-muted);
   margin-top: -1rem;
   margin-bottom: 1.5rem;
@@ -675,8 +669,6 @@ a:hover {
   padding: 1.5rem 1.25rem;
   text-align: center;
   color: var(--text-muted);
-  font-family: var(--font-serif);
-  font-style: italic;
   font-size: 0.82rem;
 }
 
