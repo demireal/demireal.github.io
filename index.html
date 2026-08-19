@@ -73,7 +73,7 @@ title: ""
   <h2 class="section__heading">selected work</h2>
   {% for pub in site.data.publications %}
     {% if pub.selected %}
-      {% include pub-item.html pub=pub %}
+      {% include pub-item.html pub=pub hide_note=true %}
     {% endif %}
   {% endfor %}
   <p class="scholar-note">see <a href="{{ '/publications/' | relative_url }}">all publications</a> or <a href="https://scholar.google.com/citations?user=pHAhVlQAAAAJ" target="_blank" rel="noopener">google scholar</a> for the complete list.</p>

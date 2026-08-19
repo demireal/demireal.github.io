@@ -5,7 +5,7 @@
       <span class="pub-item__venue">{{ include.pub.venue }}</span>
     </div>
     <h3 class="pub-item__title">{{ include.pub.title }}</h3>
-    <p class="pub-item__authors">{{ include.pub.authors }}{% if include.pub.note %} <span class="pub-item__note">&mdash; {{ include.pub.note }}</span>{% endif %}</p>
+    <p class="pub-item__authors">{{ include.pub.authors }}{% if include.pub.note and include.hide_note != true %} <span class="pub-item__note">&mdash; {{ include.pub.note }}</span>{% endif %}</p>
     {% if include.pub.links %}
       <div class="pub-item__links">
         {% for link in include.pub.links %}
