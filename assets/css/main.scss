@@ -80,60 +80,22 @@ a:hover {
 }
 
 /* ============================================================
-   NAV
+   BACK LINK (subpages)
    ============================================================ */
-.nav {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background: color-mix(in srgb, var(--bg) 88%, transparent);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-bottom: 1px solid var(--border);
-}
-
-.nav__inner {
-  max-width: var(--max-w);
-  margin: 0 auto;
-  padding: 0 1.25rem;
-  display: flex;
+.backlink {
+  display: inline-flex;
   align-items: center;
-  justify-content: space-between;
-  height: 56px;
-}
-
-.nav__name {
   font-family: var(--font-display);
-  font-size: 1rem;
-  font-weight: 600;
-  letter-spacing: 0.01em;
-  color: var(--text);
-  text-decoration: none;
-}
-.nav__name:visited { color: var(--text); }
-.nav__name:hover { color: var(--accent); opacity: 1; }
-
-.nav__links { display: flex; align-items: center; gap: 1.4rem; }
-
-.nav__link {
-  font-size: 0.88rem;
-  font-weight: 450;
+  font-size: 0.85rem;
+  font-weight: 500;
   color: var(--text-secondary);
   text-decoration: none;
-  padding: 0.35rem 0;
-  border-bottom: 1.5px solid transparent;
-  transition: color 0.2s ease, border-color 0.2s ease;
-  line-height: 44px;
+  margin-bottom: 2rem;
+  transition: color 0.15s ease;
 }
-.nav__link:visited { color: var(--text-secondary); }
-.nav__link:hover {
-  color: var(--accent);
-  opacity: 1;
-}
-.nav__link--active {
-  color: var(--text);
-  border-bottom-color: var(--accent);
-}
+.backlink:visited { color: var(--text-secondary); }
+.backlink:hover { color: var(--accent); opacity: 1; }
+.backlink i { font-size: 0.75rem; }
 
 /* ============================================================
    HERO
@@ -212,6 +174,25 @@ a:hover {
 }
 .hero__socials i { font-size: 0.95rem; }
 
+.hero__pages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.3rem;
+  justify-content: center;
+  margin-top: 0.2rem;
+}
+
+.hero__pages a {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 550;
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-color: color-mix(in srgb, var(--text) 35%, transparent);
+}
+
 @media (min-width: 700px) {
   .hero {
     flex-direction: row;
@@ -220,7 +201,8 @@ a:hover {
     justify-content: space-between;
     gap: 2.5rem;
   }
-  .hero__socials { justify-content: flex-start; }
+  .hero__socials,
+  .hero__pages { justify-content: flex-start; }
 }
 
 /* ============================================================
@@ -340,7 +322,7 @@ a:hover {
 }
 .pub-item__authors strong {
   color: var(--text);
-  font-weight: 550;
+  font-weight: 700;
 }
 
 .pub-item__note {
@@ -618,8 +600,9 @@ a:hover {
     gap: 1.25rem;
   }
   .cv-entry__date {
-    width: 110px;
+    width: 128px;
     text-align: right;
+    white-space: nowrap;
   }
 }
 

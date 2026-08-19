@@ -15,7 +15,7 @@ permalink: /teaching/
     <p class="teaching-course__desc">
       Graduate-level course covering machine learning methods applied to healthcare, including clinical NLP, causal inference, survival analysis, interpretability, fairness, and more. Lecture slides and course materials are available on the <a href="https://mlhcmit.github.io" target="_blank" rel="noopener">course website</a>.
     </p>
-    <p class="teaching-course__desc" style="margin-top: 0.75rem;">Below are the recitation slides I prepared:</p>
+    <p class="teaching-course__desc" style="margin-top: 0.75rem;">Below are some slides that may be useful:</p>
   </div>
 
   <article class="pub-item">

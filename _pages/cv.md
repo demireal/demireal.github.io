@@ -147,7 +147,7 @@ permalink: /cv/
     </div>
 
     <div class="cv-entry">
-      <span class="cv-entry__date">F '20, '21 &amp; S '21</span>
+      <span class="cv-entry__date">F'20, '21 &amp; S'21</span>
       <div class="cv-entry__body">
         <p class="cv-entry__title">Teaching Assistant, EEE212 Microprocessors, Bilkent University</p>
       </div>

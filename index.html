@@ -15,6 +15,12 @@ title: ""
       <a href="https://www.linkedin.com/in/ilker-demirel-7ab01818a/" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i><span>linkedin</span></a>
       <a href="https://github.com/demireal" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i><span>github</span></a>
     </div>
+    <div class="hero__pages">
+      <a href="{{ '/publications/' | relative_url }}">publications</a>
+      <a href="{{ '/teaching/' | relative_url }}">teaching</a>
+      <a href="{{ '/news/' | relative_url }}">news</a>
+      <a href="{{ '/cv/' | relative_url }}">resume</a>
+    </div>
   </div>
   <img src="{{ '/assets/images/ilker3.png' | relative_url }}"
        alt="Ilker Demirel"
@@ -73,37 +79,3 @@ title: ""
   <p class="scholar-note">see <a href="{{ '/publications/' | relative_url }}">all publications</a> or <a href="https://scholar.google.com/citations?user=pHAhVlQAAAAJ" target="_blank" rel="noopener">google scholar</a> for the complete list.</p>
 </section>
 
-<!-- ── News (hidden for now) ─────────────────────────────
-<section class="section">
-  <h2 class="section__heading">news</h2>
-  <ul class="news-list" id="news-list">
-    {% for item in site.data.news %}
-      <li class="news-item{% if forloop.index > 5 %} news-item--hidden{% endif %}">
-        <span class="news-date">{{ item.date }}</span>
-        <span class="news-text">{{ item.text }}</span>
-      </li>
-    {% endfor %}
-  </ul>
-  {% if site.data.news.size > 5 %}
-    <button class="news-toggle" id="news-toggle" aria-expanded="false">
-      <span class="news-toggle__text">Show more</span>
-      <i class="fas fa-chevron-down news-toggle__icon"></i>
-    </button>
-  {% endif %}
-</section>
-
-<script>
-(function() {
-  var btn = document.getElementById('news-toggle');
-  if (!btn) return;
-  var list = document.getElementById('news-list');
-  btn.addEventListener('click', function() {
-    var expanded = btn.getAttribute('aria-expanded') === 'true';
-    list.classList.toggle('news-list--expanded', !expanded);
-    btn.setAttribute('aria-expanded', !expanded);
-    btn.querySelector('.news-toggle__text').textContent = expanded ? 'Show more' : 'Show less';
-    btn.classList.toggle('news-toggle--open', !expanded);
-  });
-})();
-</script>
-──────────────────────────────────────────────────────── -->

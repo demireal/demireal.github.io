@@ -25,18 +25,10 @@
 </head>
 <body>
 
-  <nav class="nav">
-    <div class="nav__inner">
-      <a href="{{ '/' | relative_url }}" class="nav__name">home</a>
-      <div class="nav__links">
-        <a href="{{ '/publications/' | relative_url }}" class="nav__link {% if page.url == '/publications/' %}nav__link--active{% endif %}">publications</a>
-        <a href="{{ '/teaching/' | relative_url }}" class="nav__link {% if page.url == '/teaching/' %}nav__link--active{% endif %}">teaching</a>
-        <a href="{{ '/cv/' | relative_url }}" class="nav__link {% if page.url == '/cv/' %}nav__link--active{% endif %}">resume</a>
-      </div>
-    </div>
-  </nav>
-
   <main class="main">
+    {% unless page.url == "/" %}
+      <a href="{{ '/' | relative_url }}" class="backlink"><i class="fas fa-arrow-left"></i>&ensp;home</a>
+    {% endunless %}
     {{ content }}
   </main>
 
