@@ -691,6 +691,104 @@ a:hover   { text-decoration: underline; }
   background: var(--surface);
 }
 
+/* ── CV content (HTML version below the PDF) ── */
+.cv-content {
+  border-top: 1px solid var(--border);
+  margin-top: 1rem;
+  padding-top: 2.5rem;
+}
+
+.cv-interests {
+  margin-bottom: 3rem;
+  line-height: 1.8;
+}
+
+.cv-entry {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  margin-bottom: 1.4rem;
+}
+
+.cv-entry__date {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--accent);
+  flex-shrink: 0;
+  line-height: 1.9;
+}
+
+.cv-entry__body {
+  flex: 1;
+}
+
+.cv-entry__title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.cv-entry__meta,
+.cv-entry__desc {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.section .cv-entry__meta + .cv-entry__meta,
+.section .cv-entry__title + .cv-entry__meta,
+.section .cv-entry__title + .cv-entry__desc {
+  margin-top: 0.1rem;
+}
+
+@media (min-width: 640px) {
+  .cv-entry {
+    flex-direction: row;
+    gap: 1.25rem;
+  }
+  .cv-entry__date {
+    width: 110px;
+    text-align: right;
+  }
+}
+
+.cv-note {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
+}
+
+.cv-pub-list {
+  list-style: none;
+}
+
+.cv-pub-list li {
+  display: flex;
+  gap: 0.9rem;
+  margin-bottom: 1.1rem;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.cv-pub__tag {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--accent);
+  flex-shrink: 0;
+  width: 34px;
+  text-align: right;
+  line-height: 1.9;
+}
+
+.cv-pub__authors {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
 /* ============================================================
    FOOTER
    ============================================================ */
