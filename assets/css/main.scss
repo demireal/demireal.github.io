@@ -218,10 +218,10 @@ a:hover {
   gap: 1rem;
   font-family: var(--font-display);
   font-size: 0.78rem;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: var(--text);
   margin-bottom: 1.6rem;
 }
 .section__heading::after {
@@ -258,8 +258,8 @@ a:hover {
 
 .section__subheading {
   font-size: 0.74rem;
-  font-weight: 600;
-  color: var(--text-muted);
+  font-weight: 700;
+  color: var(--text);
   margin-top: 2.4rem;
   margin-bottom: 1.1rem;
   text-transform: uppercase;
