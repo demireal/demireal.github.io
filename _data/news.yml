@@ -1,3 +1,9 @@
+- date: "May 2026"
+  text: "Started my summer research internship at <a href='https://www.layerhealth.com'>Layer Health</a>!"
+
+- date: "Apr 2026"
+  text: "<a href='https://arxiv.org/pdf/2506.01191'>Uncovering bias mechanisms in observational studies</a> is accepted at ICML 2026!"
+
 - date: "Mar 2026"
   text: "New <a href='https://arxiv.org/pdf/2603.11679'>preprint</a>! We use LLMs to streamline building powerful input representations in complex datasets to enable sample-efficient downstream learning."
 
