@@ -143,15 +143,15 @@ a:hover {
   flex-direction: column-reverse;
   align-items: center;
   text-align: center;
-  gap: 2rem;
-  margin-bottom: 3.5rem;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .hero__photo {
-  width: 190px;
-  height: 230px;
+  width: 130px;
+  height: 130px;
   object-fit: cover;
-  border-radius: var(--radius);
+  border-radius: 50%;
   filter: grayscale(35%);
   transition: filter 0.3s ease;
   flex-shrink: 0;
@@ -207,7 +207,7 @@ a:hover {
   font-size: 0.85rem;
   color: var(--text-secondary);
   text-decoration: none;
-  min-height: 40px;
+  min-height: 32px;
   transition: color 0.15s ease;
 }
 .hero__socials a:visited { color: var(--text-secondary); }
@@ -220,6 +220,7 @@ a:hover {
 @media (min-width: 700px) {
   .hero {
     flex-direction: row;
+    align-items: center;
     text-align: left;
     justify-content: space-between;
     gap: 2.5rem;
