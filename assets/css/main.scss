@@ -685,10 +685,20 @@ a:hover   { text-decoration: underline; }
 
 .cv-iframe {
   width: 100%;
-  height: 85vh;
+  height: 55vh;
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background: var(--surface);
+}
+
+.cv-hint {
+  text-align: center;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-top: 0.9rem;
+}
+.cv-hint i {
+  font-size: 0.72rem;
 }
 
 /* ── CV content (HTML version below the PDF) ── */
