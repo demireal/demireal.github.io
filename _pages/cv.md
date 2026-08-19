@@ -15,6 +15,7 @@ permalink: /cv/
     src="{{ '/assets/files/Demirel_Ilker_CV.pdf' | relative_url }}"
     title="Ilker Demirel CV">
   </iframe>
+  <p class="cv-hint"><i class="fas fa-arrow-down"></i>&ensp;The CV content is also written out below</p>
 </section>
 
 <!-- ── CV content ──────────────────────────────────────── -->
