@@ -35,7 +35,7 @@
   venue: "ICML"
   year: 2026
   category: conference
-  selected: false
+  selected: true
   image: "/assets/thumbnails/uncovering.png"
   alt: ""
   links:
@@ -64,7 +64,7 @@
 
 - title: "Using LLMs for Late Multimodal Sensor Fusion for Activity Recognition"
   authors: "<strong>I. Demirel</strong>, K. Thakkar, B. Elizalde, M. Espi Marques, A. Sarathy, Y. Bai, U. Srinivas, J. Xu, S. Ren, J. Narain"
-  venue: "NeurIPS, Time Series for Health Workshop"
+  venue: "NeurIPS, Time Series for Health"
   year: 2025
   category: conference
   selected: true
