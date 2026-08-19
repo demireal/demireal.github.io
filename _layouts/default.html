@@ -29,12 +29,9 @@
     <div class="nav__inner">
       <a href="{{ '/' | relative_url }}" class="nav__name">home</a>
       <div class="nav__links">
-        <button class="theme-toggle" id="theme-toggle" title="Toggle light/dark theme" aria-label="Toggle theme">
-          <i class="fas fa-sun" id="theme-icon"></i>
-        </button>
         <a href="{{ '/publications/' | relative_url }}" class="nav__link {% if page.url == '/publications/' %}nav__link--active{% endif %}">publications</a>
         <a href="{{ '/teaching/' | relative_url }}" class="nav__link {% if page.url == '/teaching/' %}nav__link--active{% endif %}">teaching</a>
-        <a href="{{ '/cv/' | relative_url }}" class="nav__link {% if page.url == '/cv/' %}nav__link--active{% endif %}">cv</a>
+        <a href="{{ '/cv/' | relative_url }}" class="nav__link {% if page.url == '/cv/' %}nav__link--active{% endif %}">resume</a>
       </div>
     </div>
   </nav>
@@ -79,25 +76,6 @@
         lb.setAttribute('aria-hidden', 'true');
       }
     });
-
-    // Theme toggle (respects stored preference, then browser preference, then light)
-    (function() {
-      var toggle = document.getElementById('theme-toggle');
-      var icon = document.getElementById('theme-icon');
-      var stored = localStorage.getItem('theme');
-      var preferDark = stored === 'dark' || (!stored && window.matchMedia('(prefers-color-scheme: dark)').matches);
-      if (preferDark) {
-        document.documentElement.classList.add('dark');
-        icon.className = 'fas fa-sun';
-      } else {
-        icon.className = 'fas fa-moon';
-      }
-      toggle.addEventListener('click', function() {
-        var isDark = document.documentElement.classList.toggle('dark');
-        icon.className = isDark ? 'fas fa-sun' : 'fas fa-moon';
-        localStorage.setItem('theme', isDark ? 'dark' : 'light');
-      });
-    })();
 
     // Open all external links in new tabs
     document.querySelectorAll('.main a[href]').forEach(function(a) {

@@ -35,7 +35,7 @@
   venue: "ICML"
   year: 2026
   category: conference
-  selected: true
+  selected: false
   image: "/assets/thumbnails/uncovering.png"
   alt: ""
   links:
@@ -109,7 +109,7 @@
   venue: "AISTATS"
   year: 2024
   category: conference
-  selected: true
+  selected: false
   image: "/assets/thumbnails/benchmarking.png"
   alt: ""
   links:

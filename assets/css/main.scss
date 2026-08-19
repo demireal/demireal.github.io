@@ -2,36 +2,24 @@
 ---
 
 /* ============================================================
-   V2 — warm minimal ("bohemian") design system
+   V2 — minimal monochrome design system
    ============================================================ */
 
 /* ── Variables ── */
 :root {
-  --bg:             #f8f3e8;
-  --surface:        #f1eadb;
-  --border:         #e2d8c3;
-  --text:           #322a1f;
-  --text-secondary: #5d5340;
-  --text-muted:     #8f8267;
-  --accent:         #b0552d;
-  --accent-soft:    #6f7d51;
+  --bg:             #ffffff;
+  --surface:        #f7f7f7;
+  --border:         #e4e4e4;
+  --text:           #111111;
+  --text-secondary: #444444;
+  --text-muted:     #888888;
+  --accent:         #111111;
+  --accent-soft:    #666666;
   --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-serif: 'Fraunces', 'Iowan Old Style', Georgia, serif;
   --font-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
   --max-w: 720px;
   --radius: 10px;
-}
-
-/* ── Dark theme (warm espresso) ── */
-html.dark {
-  --bg:             #1b1712;
-  --surface:        #241f18;
-  --border:         #37301f;
-  --text:           #ece3d0;
-  --text-secondary: #c9bda4;
-  --text-muted:     #94876c;
-  --accent:         #d98f5c;
-  --accent-soft:    #a3b07e;
 }
 
 /* ============================================================
@@ -145,27 +133,6 @@ a:hover {
 .nav__link--active {
   color: var(--text);
   border-bottom-color: var(--accent);
-}
-
-.theme-toggle {
-  background: none;
-  border: none;
-  color: var(--text-muted);
-  font-size: 0.9rem;
-  cursor: pointer;
-  width: 32px;
-  height: 32px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  transition: color 0.2s ease, background 0.2s ease;
-  padding: 0;
-  line-height: 1;
-}
-.theme-toggle:hover {
-  color: var(--accent);
-  background: var(--surface);
 }
 
 /* ============================================================
