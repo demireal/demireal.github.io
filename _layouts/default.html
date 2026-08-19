@@ -17,6 +17,9 @@
   <meta name="twitter:title" content="{{ page.title | default: site.title }}">
   <meta name="twitter:description" content="{{ site.description }}">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..650;1,9..144,400..650&family=Inter:wght@300..650&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
@@ -77,20 +80,22 @@
       }
     });
 
-    // Theme toggle (respects stored preference, then browser preference, then dark)
+    // Theme toggle (respects stored preference, then browser preference, then light)
     (function() {
       var toggle = document.getElementById('theme-toggle');
       var icon = document.getElementById('theme-icon');
       var stored = localStorage.getItem('theme');
-      var preferLight = stored === 'light' || (!stored && window.matchMedia('(prefers-color-scheme: light)').matches);
-      if (preferLight) {
-        document.documentElement.classList.add('light');
+      var preferDark = stored === 'dark' || (!stored && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      if (preferDark) {
+        document.documentElement.classList.add('dark');
+        icon.className = 'fas fa-sun';
+      } else {
         icon.className = 'fas fa-moon';
       }
       toggle.addEventListener('click', function() {
-        var isLight = document.documentElement.classList.toggle('light');
-        icon.className = isLight ? 'fas fa-moon' : 'fas fa-sun';
-        localStorage.setItem('theme', isLight ? 'light' : 'dark');
+        var isDark = document.documentElement.classList.toggle('dark');
+        icon.className = isDark ? 'fas fa-sun' : 'fas fa-moon';
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
       });
     })();
 

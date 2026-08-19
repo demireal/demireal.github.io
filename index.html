@@ -5,21 +5,21 @@ title: ""
 
 <!-- ── Hero ────────────────────────────────────────────── -->
 <section class="hero">
+  <div class="hero__info">
+    <h1 class="hero__name">ilker demirel</h1>
+    <p class="hero__title">PhD candidate &middot; <a href="https://www.csail.mit.edu" class="hero__link">MIT CSAIL</a> &middot; <a href="http://clinicalml.org" class="hero__link">ClinicalML</a></p>
+    <p class="hero__detail">Cambridge, MA</p>
+    <div class="hero__socials">
+      <a href="mailto:demirel@mit.edu" title="Email"><i class="fas fa-envelope"></i><span>email</span></a>
+      <a href="https://scholar.google.com/citations?user=pHAhVlQAAAAJ" target="_blank" rel="noopener" title="Google Scholar"><i class="fas fa-graduation-cap"></i><span>scholar</span></a>
+      <a href="https://x.com/ilkerdemirel_" target="_blank" rel="noopener" title="X / Twitter"><i class="fab fa-x-twitter"></i><span>x</span></a>
+      <a href="https://www.linkedin.com/in/ilker-demirel-7ab01818a/" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i><span>linkedin</span></a>
+      <a href="https://github.com/demireal" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i><span>github</span></a>
+    </div>
+  </div>
   <img src="{{ '/assets/images/ilker3.png' | relative_url }}"
        alt="Ilker Demirel"
        class="hero__photo">
-  <div class="hero__info">
-    <h1 class="hero__name">ilker demirel</h1>
-    <p class="hero__title">PhD Student &middot; <a href="https://www.csail.mit.edu" class="hero__link">MIT CSAIL</a> &middot; <a href="http://clinicalml.org" class="hero__link">ClinicalML</a></p>
-    <p class="hero__detail">Cambridge, MA &middot; demirel at mit.edu</p>
-    <div class="hero__socials">
-      <a href="mailto:demirel@mit.edu" title="Email"><i class="fas fa-envelope"></i></a>
-      <a href="https://scholar.google.com/citations?user=pHAhVlQAAAAJ" target="_blank" rel="noopener" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-      <a href="https://x.com/ilkerdemirel_" target="_blank" rel="noopener" title="X / Twitter"><i class="fab fa-x-twitter"></i></a>
-      <a href="https://www.linkedin.com/in/ilker-demirel-7ab01818a/" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <a href="https://github.com/demireal" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
-    </div>
-  </div>
 </section>
 
 <!-- ── About ───────────────────────────────────────────── -->
@@ -68,9 +68,10 @@ title: ""
   <h2 class="section__heading">selected work</h2>
   {% for pub in site.data.publications %}
     {% if pub.selected %}
-      {% include pub-card.html pub=pub %}
+      {% include pub-item.html pub=pub %}
     {% endif %}
   {% endfor %}
+  <p class="scholar-note">see <a href="{{ '/publications/' | relative_url }}">all publications</a> or <a href="https://scholar.google.com/citations?user=pHAhVlQAAAAJ" target="_blank" rel="noopener">google scholar</a> for the complete list.</p>
 </section>
 
 <!-- ── News ─────────────────────────────────────────────── -->

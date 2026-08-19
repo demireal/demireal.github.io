@@ -18,59 +18,71 @@ permalink: /teaching/
     <p class="teaching-course__desc" style="margin-top: 0.75rem;">Below are the recitation slides I prepared:</p>
   </div>
 
-  <div class="pub-card">
-    <div class="pub-card__thumb">
-      <img src="{{ '/assets/thumbnails/Recitation 2.png' | relative_url }}" alt="Recitation 2: Bayes' Theorem, Differential Diagnosis, Evaluation Metrics" class="pub-card__img" onclick="openLightbox(this.src, this.alt)">
-    </div>
-    <div class="pub-card__body">
-      <h3 class="pub-card__title">Recitation 2: Bayes' Theorem, Differential Diagnosis, Evaluation Metrics</h3>
-      <p class="pub-card__venue"><em>6.7930 / HST.956</em>, Spring 2025</p>
-      <div class="pub-card__links">
-        <a href="{{ '/assets/files/Recitation 2.pdf' | relative_url }}" class="pub-pill pub-pill--slides" target="_blank" rel="noopener">Slides</a>
+  <article class="pub-item">
+    <div class="pub-item__main">
+      <div class="pub-item__meta">
+        <span class="pub-item__year">Spring 2025</span>
+        <span class="pub-item__venue">6.7930 / HST.956</span>
+      </div>
+      <h3 class="pub-item__title">Recitation 2: Bayes' Theorem, Differential Diagnosis, Evaluation Metrics</h3>
+      <div class="pub-item__links">
+        <a href="{{ '/assets/files/Recitation 2.pdf' | relative_url }}" target="_blank" rel="noopener">slides</a>
       </div>
     </div>
-  </div>
+    <div class="pub-item__thumb">
+      <img src="{{ '/assets/thumbnails/Recitation 2.png' | relative_url }}" alt="Recitation 2: Bayes' Theorem, Differential Diagnosis, Evaluation Metrics" onclick="openLightbox(this.src, this.alt)">
+    </div>
+  </article>
 
-  <div class="pub-card">
-    <div class="pub-card__thumb">
-      <img src="{{ '/assets/thumbnails/Recitation 3.png' | relative_url }}" alt="Recitation 5: Missing Data, Survival Analysis" class="pub-card__img" onclick="openLightbox(this.src, this.alt)">
-    </div>
-    <div class="pub-card__body">
-      <h3 class="pub-card__title">Recitation 5: Missing Data, Survival Analysis</h3>
-      <p class="pub-card__venue"><em>6.7930 / HST.956</em>, Spring 2025</p>
-      <div class="pub-card__links">
-        <a href="{{ '/assets/files/Recitation 3.pdf' | relative_url }}" class="pub-pill pub-pill--slides" target="_blank" rel="noopener">Slides</a>
+  <article class="pub-item">
+    <div class="pub-item__main">
+      <div class="pub-item__meta">
+        <span class="pub-item__year">Spring 2025</span>
+        <span class="pub-item__venue">6.7930 / HST.956</span>
+      </div>
+      <h3 class="pub-item__title">Recitation 5: Missing Data, Survival Analysis</h3>
+      <div class="pub-item__links">
+        <a href="{{ '/assets/files/Recitation 3.pdf' | relative_url }}" target="_blank" rel="noopener">slides</a>
       </div>
     </div>
-  </div>
+    <div class="pub-item__thumb">
+      <img src="{{ '/assets/thumbnails/Recitation 3.png' | relative_url }}" alt="Recitation 5: Missing Data, Survival Analysis" onclick="openLightbox(this.src, this.alt)">
+    </div>
+  </article>
 
-  <div class="pub-card">
-    <div class="pub-card__thumb">
-      <img src="{{ '/assets/thumbnails/Recitation 6.png' | relative_url }}" alt="Recitation 6: Causal Inference" class="pub-card__img" onclick="openLightbox(this.src, this.alt)">
-    </div>
-    <div class="pub-card__body">
-      <h3 class="pub-card__title">Recitation 6: Causal Inference</h3>
-      <p class="pub-card__authors">Ignorability, Sensitivity Analysis, Negative Controls, Overlap, Extrapolation</p>
-      <p class="pub-card__venue"><em>6.7930 / HST.956</em>, Spring 2025</p>
-      <div class="pub-card__links">
-        <a href="{{ '/assets/files/Recitation 6.pdf' | relative_url }}" class="pub-pill pub-pill--slides" target="_blank" rel="noopener">Slides</a>
+  <article class="pub-item">
+    <div class="pub-item__main">
+      <div class="pub-item__meta">
+        <span class="pub-item__year">Spring 2025</span>
+        <span class="pub-item__venue">6.7930 / HST.956</span>
+      </div>
+      <h3 class="pub-item__title">Recitation 6: Causal Inference</h3>
+      <p class="pub-item__authors">Ignorability, Sensitivity Analysis, Negative Controls, Overlap, Extrapolation</p>
+      <div class="pub-item__links">
+        <a href="{{ '/assets/files/Recitation 6.pdf' | relative_url }}" target="_blank" rel="noopener">slides</a>
       </div>
     </div>
-  </div>
+    <div class="pub-item__thumb">
+      <img src="{{ '/assets/thumbnails/Recitation 6.png' | relative_url }}" alt="Recitation 6: Causal Inference" onclick="openLightbox(this.src, this.alt)">
+    </div>
+  </article>
 
-  <div class="pub-card">
-    <div class="pub-card__thumb">
-      <img src="{{ '/assets/thumbnails/Recitation 8.png' | relative_url }}" alt="Recitation 8: Interpretability of ML Models" class="pub-card__img" onclick="openLightbox(this.src, this.alt)">
-    </div>
-    <div class="pub-card__body">
-      <h3 class="pub-card__title">Recitation 8: Interpretability of ML Models</h3>
-      <p class="pub-card__authors">Linear Models, LIME, Influence Functions, Mechanistic Interpretability</p>
-      <p class="pub-card__venue"><em>6.7930 / HST.956</em>, Spring 2025</p>
-      <div class="pub-card__links">
-        <a href="{{ '/assets/files/Recitation 8.pdf' | relative_url }}" class="pub-pill pub-pill--slides" target="_blank" rel="noopener">Slides</a>
+  <article class="pub-item">
+    <div class="pub-item__main">
+      <div class="pub-item__meta">
+        <span class="pub-item__year">Spring 2025</span>
+        <span class="pub-item__venue">6.7930 / HST.956</span>
+      </div>
+      <h3 class="pub-item__title">Recitation 8: Interpretability of ML Models</h3>
+      <p class="pub-item__authors">Linear Models, LIME, Influence Functions, Mechanistic Interpretability</p>
+      <div class="pub-item__links">
+        <a href="{{ '/assets/files/Recitation 8.pdf' | relative_url }}" target="_blank" rel="noopener">slides</a>
       </div>
     </div>
-  </div>
+    <div class="pub-item__thumb">
+      <img src="{{ '/assets/thumbnails/Recitation 8.png' | relative_url }}" alt="Recitation 8: Interpretability of ML Models" onclick="openLightbox(this.src, this.alt)">
+    </div>
+  </article>
 </section>
 
 <section class="section">

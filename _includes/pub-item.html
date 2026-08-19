@@ -1,0 +1,22 @@
+<article class="pub-item">
+  <div class="pub-item__main">
+    <div class="pub-item__meta">
+      <span class="pub-item__year">{{ include.pub.year }}</span>
+      <span class="pub-item__venue">{{ include.pub.venue }}</span>
+    </div>
+    <h3 class="pub-item__title">{{ include.pub.title }}</h3>
+    <p class="pub-item__authors">{{ include.pub.authors }}{% if include.pub.note %} <span class="pub-item__note">&mdash; {{ include.pub.note }}</span>{% endif %}</p>
+    {% if include.pub.links %}
+      <div class="pub-item__links">
+        {% for link in include.pub.links %}
+          <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label | downcase }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+  {% if include.show_thumb and include.pub.image and include.pub.image != "" %}
+    <div class="pub-item__thumb">
+      <img src="{{ include.pub.image | relative_url }}" alt="{{ include.pub.alt | default: include.pub.title }}" onclick="openLightbox(this.src, this.alt)">
+    </div>
+  {% endif %}
+</article>
