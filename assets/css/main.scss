@@ -121,6 +121,15 @@ a:hover {
   opacity: 1;
 }
 
+/* Inline variant, sitting next to the hero page links */
+.hero__pages .theme-toggle {
+  position: static;
+  width: 26px;
+  height: 26px;
+  font-size: 0.8rem;
+  align-self: center;
+}
+
 /* ============================================================
    BACK LINK (subpages)
    ============================================================ */

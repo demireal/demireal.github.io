@@ -32,10 +32,10 @@
 <body>
 
   <main class="main">
-    <button class="theme-toggle" id="theme-toggle" title="Toggle theme" aria-label="Toggle theme">
-      <i id="theme-icon" class="fas fa-moon"></i>
-    </button>
     {% unless page.url == "/" %}
+      <button class="theme-toggle" id="theme-toggle" title="Toggle theme" aria-label="Toggle theme">
+        <i id="theme-icon" class="fas fa-moon"></i>
+      </button>
       <a href="{{ '/' | relative_url }}" class="backlink"><i class="fas fa-arrow-left"></i>&ensp;home</a>
     {% endunless %}
     {{ content }}
