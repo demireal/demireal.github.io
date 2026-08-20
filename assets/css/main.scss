@@ -703,12 +703,17 @@ a:hover {
    FOOTER
    ============================================================ */
 .footer {
-  border-top: 1px solid var(--border);
-  padding: 1.5rem 1.25rem;
+  padding: 1.5rem 1.25rem 1.75rem;
   text-align: center;
   color: var(--text-muted);
-  font-size: 0.82rem;
+  font-size: 0.78rem;
 }
+.footer a {
+  color: var(--text-muted);
+  text-decoration-color: var(--border);
+}
+.footer a:visited { color: var(--text-muted); }
+.footer a:hover { color: var(--text); opacity: 1; }
 
 .footer__inner {
   max-width: var(--max-w);
