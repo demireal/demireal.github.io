@@ -17,6 +17,12 @@
   <meta name="twitter:title" content="{{ page.title | default: site.title }}">
   <meta name="twitter:description" content="{{ site.description }}">
 
+  <script>
+    /* Apply stored theme before first paint to avoid a flash */
+    if (localStorage.getItem('theme') === 'dark') {
+      document.documentElement.classList.add('dark');
+    }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400..700&family=Inter:wght@300..650&display=swap" rel="stylesheet">
@@ -26,6 +32,9 @@
 <body>
 
   <main class="main">
+    <button class="theme-toggle" id="theme-toggle" title="Toggle theme" aria-label="Toggle theme">
+      <i id="theme-icon" class="fas fa-moon"></i>
+    </button>
     {% unless page.url == "/" %}
       <a href="{{ '/' | relative_url }}" class="backlink"><i class="fas fa-arrow-left"></i>&ensp;home</a>
     {% endunless %}
@@ -62,6 +71,20 @@
         lb.setAttribute('aria-hidden', 'true');
       }
     });
+
+    // Theme toggle (white default; dark palette on demand)
+    (function() {
+      var toggle = document.getElementById('theme-toggle');
+      var icon = document.getElementById('theme-icon');
+      if (document.documentElement.classList.contains('dark')) {
+        icon.className = 'fas fa-sun';
+      }
+      toggle.addEventListener('click', function() {
+        var isDark = document.documentElement.classList.toggle('dark');
+        icon.className = isDark ? 'fas fa-sun' : 'fas fa-moon';
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+      });
+    })();
 
     // Open all external links in new tabs
     document.querySelectorAll('.main a[href]').forEach(function(a) {
