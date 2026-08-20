@@ -152,9 +152,19 @@ a:hover {
 .hero__socials {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem 1.3rem;
+  gap: 0.4rem 1rem;
   justify-content: center;
   margin-top: 0.8rem;
+}
+
+@media (max-width: 420px) {
+  .hero__socials { gap: 0.4rem 0.6rem; }
+  .hero__socials a { font-size: 0.8rem; gap: 0.3rem; }
+}
+
+@media (max-width: 374px) {
+  .hero__socials { gap: 0.4rem 0.45rem; }
+  .hero__socials a { font-size: 0.76rem; gap: 0.25rem; }
 }
 
 .hero__socials a {
