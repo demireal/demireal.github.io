@@ -21,11 +21,6 @@ permalink: /cv/
 <!-- ── CV content ──────────────────────────────────────── -->
 <div class="cv-content">
 
-  <p class="cv-interests">
-    <span class="ri-label">Interests:</span>
-    LLM agents, self-improvement &amp; continual learning, sample-efficiency, causality, human-AI collaboration
-  </p>
-
   <section class="section">
     <h2 class="section__heading">education</h2>
 
