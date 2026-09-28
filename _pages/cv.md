@@ -153,24 +153,14 @@ permalink: /cv/
     <h2 class="section__heading">publications</h2>
     <p class="cv-note">*equal contribution &middot; ID = Ilker Demirel</p>
 
-    <h3 class="section__subheading">Preprints</h3>
+    <h3 class="section__subheading">Conference</h3>
     <ul class="cv-pub-list">
       <li>
         <span class="cv-pub__tag">P1</span>
         <span>LLMs can construct powerful representations and streamline sample-efficient supervised learning
         <a href="https://arxiv.org/abs/2603.11679">[paper]</a><br>
-        <span class="cv-pub__authors"><strong>ID</strong>, L. Shi, Z. Hussain, D. Sontag &middot; arXiv</span></span>
+        <span class="cv-pub__authors"><strong>ID</strong>, L. Shi, Z. Hussain, D. Sontag &middot; NeurIPS 2026</span></span>
       </li>
-      <li>
-        <span class="cv-pub__tag">P2</span>
-        <span>Machine learning cross-platform proteomic imputation enables protein quality scoring and replication of epidemiological associations
-        <a href="https://www.biorxiv.org/content/10.64898/2026.05.05.723059v1.abstract">[paper]</a><br>
-        <span class="cv-pub__authors">L. Li, A. Alaa, Y. Tan, <strong>ID</strong>, &hellip;, P. Natarajan, Z. Yu &middot; bioRxiv</span></span>
-      </li>
-    </ul>
-
-    <h3 class="section__subheading">Conference</h3>
-    <ul class="cv-pub-list">
       <li>
         <span class="cv-pub__tag">C11</span>
         <span>Uncovering bias mechanisms in observational studies
@@ -254,6 +244,17 @@ permalink: /cv/
         <span class="cv-pub__authors"><strong>ID</strong>, S. Gezici &middot; DSP Elsevier, 2022</span></span>
       </li>
     </ul>
+
+    <h3 class="section__subheading">Preprints</h3>
+    <ul class="cv-pub-list">
+      <li>
+        <span class="cv-pub__tag">P2</span>
+        <span>Machine learning cross-platform proteomic imputation enables protein quality scoring and replication of epidemiological associations
+        <a href="https://www.biorxiv.org/content/10.64898/2026.05.05.723059v1.abstract">[paper]</a><br>
+        <span class="cv-pub__authors">L. Li, A. Alaa, Y. Tan, <strong>ID</strong>, &hellip;, P. Natarajan, Z. Yu &middot; bioRxiv</span></span>
+      </li>
+    </ul>
+    
   </section>
 
   <section class="section">
