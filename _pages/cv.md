@@ -156,7 +156,7 @@ permalink: /cv/
     <h3 class="section__subheading">Conference</h3>
     <ul class="cv-pub-list">
       <li>
-        <span class="cv-pub__tag">P1</span>
+        <span class="cv-pub__tag">C12</span>
         <span>LLMs can construct powerful representations and streamline sample-efficient supervised learning
         <a href="https://arxiv.org/abs/2603.11679">[paper]</a><br>
         <span class="cv-pub__authors"><strong>ID</strong>, L. Shi, Z. Hussain, D. Sontag &middot; NeurIPS 2026</span></span>
